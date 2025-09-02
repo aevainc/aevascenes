@@ -1,0 +1,21 @@
+name: aevascenes
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pillow
+  - pyyaml
+  - tabulate
+  - tqdm
+  - rich
+  - opencv
+  - pip
+  - pip:
+      - rerun-sdk==0.24.1
+      - transformations
+      - -e .

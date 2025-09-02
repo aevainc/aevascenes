@@ -1,0 +1,35 @@
+[project]
+name = "aevascenes"
+version = "0.1.0"
+description = "A PythonAPI for the AevaScenes dataset"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "tqdm",
+    "numpy",
+    "pandas",
+    "transformations",
+    "pyyaml",
+    "tabulate",
+    "matplotlib",
+    "pillow",
+    "scipy",
+    "opencv-python",
+    "rerun-sdk==0.24.1",
+    "rich",
+]
+
+[tool.setuptools]
+packages = ["aevascenes"]
+
+[tool.black]
+line-length = 120
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
