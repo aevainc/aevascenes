@@ -1,0 +1,10 @@
+# Ignore data dir
+data/
+
+# Ignore Python eggs and caches
+*.egg-info/
+*.eggs/
+**/__pycache__/
+
+# Ignore vscode directory
+.vscode/
