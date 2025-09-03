@@ -4,7 +4,7 @@
   <p><em>A Dataset and Benchmark for FMCW LiDAR Perception</em></p>
   <!-- Badges -->
   <p>
-    <!-- <img src="https://img.shields.io/pypi/v/aevascenes?style=flat-square&color=blue" alt="PyPI Version"> -->
+    <img src="https://img.shields.io/badge/aevascenes-v0.1-green?style=flat-square" alt="AevaScenes Versions">
     <img src="https://img.shields.io/badge/python->=3.10-green?style=flat-square" alt="Python Versions">
     <img src="https://img.shields.io/github/license/aevainc/aevascenes?style=flat-square&color=orange" alt="License">
     <img src="https://img.shields.io/badge/license-AevaScenes%20Dataset%20License-orange?style=flat-square" alt="License">
@@ -108,7 +108,7 @@ avs.visualize_sequence(
 The AevaScenes dataset is provided under the **AevaScenes Dataset License Agreement** for non-commercial use only. The AevaScenes Python SDK is licensed under the MIT License.
 
 - **Dataset License**: [AevaScenes Dataset License](https://scenes.aeva.com/license)
-- **Code License**: [MIT License](LICENSE_CODE.md)
+- **Code License**: [MIT License](LICENSE-CODE)
 
 
 ## Citation
