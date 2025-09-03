@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://scenes.aeva.com/"> Website</a> |
   <a href="https://scenes.aeva.com/dataset"> Dataset</a> |
-  <a href="https://scenes.aeva.com/downloads"> Download</a> |
+  <a href="https://scenes.aeva.com/download"> Download</a> |
   <a href="https://scenes.aeva.com/license"> License</a> |
   <a href="#citation"> Citation</a>
 </p>
