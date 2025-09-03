@@ -71,7 +71,7 @@ A small subset of the highway/city/day/night sequences are available to see usin
 
 ```bash
 # Run the download script (after obtaining access)
-bash download_dataset.sh
+bash scripts/download_dataset.sh
 ```
 
 ## Getting Started
