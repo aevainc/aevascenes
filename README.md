@@ -1,23 +1,27 @@
-<p align="center">
-    <img src="media/aeva_logo.png" alt="Logo" width="60" height="60" style="vertical-align: middle; margin-right: 10px;">
-    <span style="font-size: 2em; font-weight: bold; vertical-align: middle;">AevaScenes: A Dataset and Benchmark for FMCW LiDAR Perception</span>
-</p>
-
-<!-- <p align="center">
-  <img src="https://scenes.aeva.com/assets/banner-CKqZLY-s.png" alt="AevaScenes Banner" width="800">
-</p> -->
-
-<p align="center">
-  <a href="https://scenes.aeva.com/"> Website</a> |
-  <a href="https://scenes.aeva.com/dataset"> Dataset</a> |
-  <a href="https://scenes.aeva.com/download"> Download</a> |
-  <a href="https://scenes.aeva.com/license"> License</a> |
-  <a href="#citation"> Citation</a>
-</p>
+<div align="center">
+  <img src="media/aeva_logo.png" alt="Aeva Logo" width="120" height="120">
+  <h1>AevaScenes Python SDK</h1>
+  <p><em>A Dataset and Benchmark for FMCW LiDAR Perception</em></p>
+  <!-- Badges -->
+  <p>
+    <!-- <img src="https://img.shields.io/pypi/v/aevascenes?style=flat-square&color=blue" alt="PyPI Version"> -->
+    <img src="https://img.shields.io/badge/python->=3.10-green?style=flat-square" alt="Python Versions">
+    <img src="https://img.shields.io/github/license/aevainc/aevascenes?style=flat-square&color=orange" alt="License">
+    <img src="https://img.shields.io/badge/license-AevaScenes%20Dataset%20License-orange?style=flat-square" alt="License">
+  </p>
+  <!-- Navigation Links -->
+  <p>
+    <a href="https://scenes.aeva.com/"><strong>Website</strong></a> |
+    <a href="https://scenes.aeva.com/dataset"><strong>Dataset</strong></a> |
+    <a href="https://scenes.aeva.com/download"><strong>Download</strong></a> |
+    <a href="#license"><strong>License</strong></a> |
+    <a href="#bibtex-citation"><strong>Citation</strong></a>
+  </p>
+</div>
 
 <!-- ## Overview -->
 
-**AevaScenes** is a comprehensive multi-modal dataset designed to advance research in FMCW (Frequency-Modulated Continuous Wave) LiDAR perception. The dataset features synchronized data from **6 FMCW LiDARs** and **6 high-resolution cameras** mounted on an autonomous vehicle, captured across diverse urban and highway environments in the San Francisco Bay Area.
+**AevaScenes** is a comprehensive multi-modal dataset designed to advance research in FMCW (Frequency-Modulated Continuous Wave) LiDAR perception. The dataset features synchronized data from **6 FMCW LiDARs** and **6 high-resolution cameras** mounted on a vehicle, captured across diverse urban and highway environments in the San Francisco Bay Area.
 
 #### Instantaneous Velocity Measurements
 AevaScenes features the longest-range FMCW LiDAR data ever released to the public, delivering over 400 meters of range with per-point velocity—enabling researchers and developers to explore perception capabilities beyond the limits of traditional datasets.
@@ -28,7 +32,7 @@ AevaScenes features the longest-range FMCW LiDAR data ever released to the publi
 
 
 #### Ultra-Long Range Detections
-For the first time, FMCW LiDAR enables detections up to **450** meters by measuring instantaneous radial velocity per point directly at the sensor. Aeva's Doppler-based approach enhances long-range perception, enabling earlier detection of moving objects and improving overall safety for autonomous navigation.
+For the first time, FMCW LiDAR enables detections up to **400** meters by measuring instantaneous radial velocity per point directly at the sensor. Aeva's Doppler-based approach enhances long-range perception, enabling earlier detection of moving objects and improving overall safety for autonomous navigation.
 
 <p align="center">
   <img src="media/long_range.gif" width="600">
@@ -50,19 +54,19 @@ Unlike traditional LiDARs, FMCW LiDAR delivers high dynamic range with negligibl
   <img src="media/reflectivity.gif" width="600">
 </p>
 
-### Web Visualizer
+#### Interactive Web Visualizer
 
 A small subset of the highway/city/day/night sequences are available to see using the web visualizer here
-**[AevaScenes Web Visualizer](https://scenes.aeva.com/visualize)**
+**[AevaScenes Web Visualizer](https://scenes.aeva.com/visualize)**.
 
 <p align="center">
   <img src="media/web_visualizer.gif" width="600">
 </p>
 
 
-### Download Dataset
-1. Visit [scenes.aeva.com/downloads](https://scenes.aeva.com/downloads)
-2. Register and agree to the license terms
+## Download Dataset
+1. Visit [scenes.aeva.com/downloads](https://scenes.aeva.com/downloads).
+2. Register and agree to the license terms.
 3. Download the dataset using the provided download script:
 
 ```bash
@@ -70,11 +74,11 @@ A small subset of the highway/city/day/night sequences are available to see usin
 bash download_dataset.sh
 ```
 
-### Getting Started
+## Getting Started
 
-Please see [Dataset.md](./docs/Dataset.md) for details about the dataset
+Please see [Dataset.md](./docs/Dataset.md) for details about the dataset and schema.
 
-Please see [Getting Started.md](./docs/Getting_Started.md) for details about the dataset
+Please see [Getting Started.md](./docs/Getting_Started.md) to get started with using the Python SDK. Here's a quick overview.
 
 ```python
 from aevascenes import AevaScenes
@@ -101,13 +105,13 @@ avs.visualize_sequence(
 
 ## License
 
-The AevaScenes dataset is provided under the **AevaScenes Dataset License Agreement** for non-commercial use only. The Python toolkit code is licensed under the MIT License.
+The AevaScenes dataset is provided under the **AevaScenes Dataset License Agreement** for non-commercial use only. The AevaScenes Python SDK is licensed under the MIT License.
 
 - **Dataset License**: [AevaScenes Dataset License](https://scenes.aeva.com/license)
-- **Code License**: MIT License
+- **Code License**: [MIT License](LICENSE_CODE.md)
 
 
-## Citation
+## BibTeX Citation
 
 If you use AevaScenes in your research, please cite our work:
 
@@ -124,18 +128,13 @@ If you use AevaScenes in your research, please cite our work:
 
 We welcome contributions to improve the AevaScenes dataset and toolkit! Please see our contributing guidelines and submit pull requests for:
 
-- Requests for data diversity
-- Bug fixes and performance improvements
-- New visualization features
-- Dataset utilities and analysis tools
+- Requests for data diversity.
+- Bug fixes and performance improvements.
+- New visualization features.
+- Dataset utilities and analysis tools.
 
 ## Support
 
 - **Website**: [scenes.aeva.com](https://scenes.aeva.com/)
 - **Issues**: [GitHub Issues](https://github.com/aevainc/aevascenes/issues)
 - **Email**: [research@aeva.ai](mailto:research@aeva.ai)
-
-
-<p align="center">
-  <strong>AevaScenes</strong> - Advancing FMCW LiDAR Perception Research
-</p>
