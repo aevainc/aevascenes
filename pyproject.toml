@@ -1,7 +1,9 @@
 [project]
 name = "aevascenes"
 version = "0.1.0"
-description = "A PythonAPI for the AevaScenes dataset"
+description = "AevaScenes Python SDK"
+authors = [{name = "Aeva, Inc", email = "research@aeva.ai"}]
+license = {file = "LICENSE-CODE"}
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -17,6 +19,20 @@ dependencies = [
     "opencv-python",
     "rerun-sdk==0.24.1",
     "rich",
+]
+keywords = ["aeva", "aevascenes", "lidar", "fmcw", "sdk"]
+# See https://pypi.org/classifiers
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Unix",
+  "Programming Language :: Python :: 3 Only",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Software Development :: Libraries",
 ]
 
 [tool.setuptools]
