@@ -15,7 +15,7 @@
     <a href="https://scenes.aeva.com/dataset"><strong>Dataset</strong></a> |
     <a href="https://scenes.aeva.com/download"><strong>Download</strong></a> |
     <a href="#license"><strong>License</strong></a> |
-    <a href="#bibtex-citation"><strong>Citation</strong></a>
+    <a href="#citation"><strong>Citation</strong></a>
   </p>
 </div>
 
@@ -111,9 +111,9 @@ The AevaScenes dataset is provided under the **AevaScenes Dataset License Agreem
 - **Code License**: [MIT License](LICENSE_CODE.md)
 
 
-## BibTeX Citation
+## Citation
 
-If you use AevaScenes in your research, please cite our work:
+If you use AevaScenes in your research, please cite our work using the following BibTeX.
 
 ```bibtex
 @misc{aevascenes,
