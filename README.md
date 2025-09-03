@@ -23,10 +23,7 @@
 AevaScenes features the longest-range FMCW LiDAR data ever released to the public, delivering over 400 meters of range with per-point velocity—enabling researchers and developers to explore perception capabilities beyond the limits of traditional datasets.
 
 <p align="center">
-    <video width="800" controls>
-        <source src="media/velocity.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+  <img src="media/velocity.gif" width="600">
 </p>
 
 
@@ -34,10 +31,7 @@ AevaScenes features the longest-range FMCW LiDAR data ever released to the publi
 For the first time, FMCW LiDAR enables detections up to **450** meters by measuring instantaneous radial velocity per point directly at the sensor. Aeva's Doppler-based approach enhances long-range perception, enabling earlier detection of moving objects and improving overall safety for autonomous navigation.
 
 <p align="center">
-    <video width="800" controls>
-        <source src="media/long_range.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+  <img src="media/long_range.gif" width="600">
 </p>
 
 
@@ -45,10 +39,7 @@ For the first time, FMCW LiDAR enables detections up to **450** meters by measur
 AevaScenes provides annotations—including 3D bounding boxes, lane lines, and semantic segmentation—at ranges up to 400 meters. This unprecedented depth of annotation empowers research in long-range perception, planning, and tracking beyond the limits of existing datasets.
 
 <p align="center">
-    <video width="800" controls>
-        <source src="media/semseg.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+  <img src="media/semseg.gif" width="600">
 </p>
 
 
@@ -56,10 +47,7 @@ AevaScenes provides annotations—including 3D bounding boxes, lane lines, and s
 Unlike traditional LiDARs, FMCW LiDAR delivers high dynamic range with negligible blooming around retroreflective surfaces such as road signs, botts-dots and license plates, resulting in sharper object boundaries and more accurate perception, even in challenging high-reflectivity scenarios.
 
 <p align="center">
-    <video width="800" controls>
-        <source src="media/reflectivity.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+  <img src="media/reflectivity.gif" width="600">
 </p>
 
 ### Web Visualizer
@@ -68,10 +56,7 @@ A small subset of the highway/city/day/night sequences are available to see usin
 **[AevaScenes Web Visualizer](https://scenes.aeva.com/visualize)**
 
 <p align="center">
-    <video width="800" controls>
-        <source src="media/web_visualizer.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+  <img src="media/web_visualizer.gif" width="600">
 </p>
 
 
