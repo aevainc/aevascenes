@@ -80,26 +80,15 @@ Please see [Dataset.md](./docs/Dataset.md) for details about the dataset and sch
 
 Please see [Getting Started.md](./docs/Getting_Started.md) to get started with using the Python SDK. Here's a quick overview.
 
-```python
-from aevascenes import AevaScenes
+```bash
+# Visualize a single sequence
+python examples/visualize_aevascenes.py --dataroot <DATA_ROOT> --viz-mode sequence --sequence-uuid <UUID> --color-mode [velocity/reflectivity/semantic]
 
-# Initialize dataset
-avs = AevaScenes(dataroot="data/aevascenes_v0.1")
+# Visualize a single sequence with points projected
+python examples/visualize_aevascenes.py --dataroot <DATA_ROOT> --viz-mode sequence --sequence-uuid <UUID> --color-mode [velocity/reflectivity/semantic] --project-points
 
-# List available sequences
-avs.list_sequences()
-
-# Load a specific sequence
-sequence_uuid = "3a8ce6a1-a80e-4a59-b400-9983f2b67b08"
-sequence_data = avs.load_sequence(sequence_uuid)
-
-# Visualize the sequence
-avs.visualize_sequence(
-    sequence_uuid=sequence_uuid,
-    pcd_color_mode="velocity",  # Options: "velocity", "reflectivity", "semantic"
-    project_points_on_image=True,
-    image_downsample_factor=2
-)
+# Visualize random sampled frames from all sequences
+python examples/visualize_aevascenes.py --dataroot <DATA_ROOT> --viz-mode sampled --color-mode [velocity/reflectivity/semantic] --project-points
 ```
 
 

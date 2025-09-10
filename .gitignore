@@ -8,3 +8,9 @@ data/
 
 # Ignore vscode directory
 .vscode/
+
+# Ignore data
+*.jpg
+*.pcd
+*.npz
+*.json

@@ -51,6 +51,14 @@ avs.visualize_sequence(
     project_points_on_image=True,
     image_downsample_factor=2
 )
+
+# Visualize random frames from the dataset
+avs.visualize_sampled_frames_from_dataset(
+    pcd_color_mode="velocity",  # Options: "velocity", "reflectivity", "semantic"
+    project_points_on_image=False,
+    image_downsample_factor=2,
+)
+
 ```
 
 ## Visualization
