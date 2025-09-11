@@ -43,7 +43,14 @@ class AevaScenes:
         """
         self.dataroot = dataroot
         self.rr_visualizer = RRVisualizer()
-        self.metadata = utils.read_file(os.path.join(self.dataroot, "metadata.json"))
+        metadata_path = os.path.join(self.dataroot, "metadata.json")
+        if os.path.exists(metadata_path):
+            self.metadata = utils.read_file()
+        else:
+            print(
+                f"Skipping reading metadata.json as it doesn't exist at {metadata_path}. \
+                Will not be able to load full dataset automatically."
+            )
 
     def is_sequence_uuid_valid(self, sequence_uuid: str) -> bool:
         """

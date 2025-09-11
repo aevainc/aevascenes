@@ -1,11 +1,10 @@
+#!/usr/bin/env bash
 # Copyright (c) 2016-2025 Aeva, Inc.
 # SPDX-License-Identifier: MIT
 #
 # The AevaScenes dataset is licensed separately under the AevaScenes Dataset License.
 # See https://scenes.aeva.com/license for the full license text.
 
-
-#!/usr/bin/env bash
 # download_dataset.sh - Download S3 presigned URLs safely with robust resume
 # 
 # This script downloads files from S3 presigned URLs while avoiding command line
@@ -291,7 +290,7 @@ download_url() {
     
     # Determine output filename
     if [[ -n "$OUTPUT_PATH" ]]; then
-        output_file="$OUTPUT_PATH"
+        output_file="${OUTPUT_PATH}/$(generate_safe_filename "$url")"
     else
         output_file="$(generate_safe_filename "$url")"
     fi
