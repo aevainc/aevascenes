@@ -70,11 +70,14 @@ A small subset of the highway/city/day/night sequences are available to see usin
 3. Download the dataset using the provided download script:
 
 ```bash
-# Run the download script (after obtaining access)
+# If you were provided a single URL, please ensure to double quote the url, so it should look like "https://aeva-dataset-sequences.s3.us-west-1.amazonaws.com/..."
+bash scripts/download_dataset.sh --url <URL> -o data/aevascenes_v0.1.tar.gz
+cd data
+tar -xvf aevascenes_v0.1.tar.gz
+
+# If you were provided a file containing URL's
 mkdir data/aevascenes_v0.1
 bash scripts/download_dataset.sh --url-file signed_urls.txt --output data/aevascenes_v0.1
-
-# Extract the tarballs
 cd data/aevascenes_v0.1
 for f in *.tar.gz; do tar -xvf "$f"; done
 ```
