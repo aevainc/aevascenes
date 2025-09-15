@@ -62,9 +62,14 @@ class AevaScenes:
         Returns:
             True if the UUID is valid and exists in the dataset, False otherwise
         """
-        if type(sequence_uuid) != str or len(sequence_uuid) != 36:
-            return False
-        return sequence_uuid in self.metadata["sequence_uuids"]
+
+        if hasattr(self, "metadata"):
+            if type(sequence_uuid) != str or len(sequence_uuid) != 36:
+                return False
+            return sequence_uuid in self.metadata["sequence_uuids"]
+        else:
+            print("Metadata does not exist. Cannot check if sequence_uuid is valid")
+            return True
 
     def get_sequence_uuids(self) -> List[str]:
         """
@@ -73,7 +78,10 @@ class AevaScenes:
         Returns:
             List of sequence UUID strings available in the dataset
         """
-        return self.metadata["sequence_uuids"]
+        if hasattr(self, "metadata"):
+            return self.metadata["sequence_uuids"]
+        else:
+            print("Metadata does not exist. Cannot list sequence_uuids")
 
     def list_sequences(self) -> None:
         """

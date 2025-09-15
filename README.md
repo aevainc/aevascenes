@@ -67,7 +67,8 @@ A small subset of the highway/city/day/night sequences are available to see usin
 ## Download Dataset
 1. Visit [scenes.aeva.com/downloads](https://scenes.aeva.com/downloads).
 2. Register and agree to the license terms.
-3. Download the dataset using the provided download script:
+3. We will email you the signed_urls.txt file which contains the download links.
+4. Download the dataset using the provided download script and signed_urls.txt:
 
 ```bash
 # Download the dataset (after signing up and obtaining access)
