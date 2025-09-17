@@ -72,8 +72,8 @@ A small subset of the highway/city/day/night sequences are available to see usin
 
 ```bash
 # Download the dataset (after signing up and obtaining access)
-mkdir data/aevascenes_v0.1
-bash scripts/download_dataset.sh --url-file signed_urls.txt --output data/aevascenes_v0.1
+mkdir -p data/aevascenes_v0.1
+bash aevascenes/scripts/download_dataset.sh --url-file signed_urls.txt --output data/aevascenes_v0.1
 
 # Extract the dataset
 cd data/aevascenes_v0.1
