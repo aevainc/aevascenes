@@ -45,7 +45,7 @@ class AevaScenes:
         self.rr_visualizer = RRVisualizer()
         metadata_path = os.path.join(self.dataroot, "metadata.json")
         if os.path.exists(metadata_path):
-            self.metadata = utils.read_file()
+            self.metadata = utils.read_file(metadata_path)
         else:
             print(
                 f"Skipping reading metadata.json as it doesn't exist at {metadata_path}. \
