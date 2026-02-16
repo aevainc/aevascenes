@@ -13,10 +13,8 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import rerun as rr
 import transformations as tf
 import yaml
-from rerun.datatypes import Quaternion
 from scipy.spatial.transform import Rotation as scipy_rot
 
 from aevascenes.utils import colormaps
@@ -260,7 +258,7 @@ def deserialize_boxes(boxes: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return boxes
 
 
-def convert_boxes_to_rr(boxes: List[Dict[str, Any]], color_map: Optional[Dict[str, List[int]]] = None) -> rr.Boxes3D:
+def convert_boxes_to_rr(boxes: List[Dict[str, Any]], color_map: Optional[Dict[str, List[int]]] = None):
     """
     Convert bounding boxes to Rerun Boxes3D format for 3D visualization.
     Transforms a list of bounding boxes in AevaScenes format to a Rerun Boxes3D
@@ -280,6 +278,9 @@ def convert_boxes_to_rr(boxes: List[Dict[str, Any]], color_map: Optional[Dict[st
     Returns:
         Rerun Boxes3D object configured for visualization
     """
+    import rerun as rr
+    from rerun.datatypes import Quaternion
+
     boxes_rr = {}
     boxes_rr["half_sizes"] = np.array([box["dimensions"] / 2 for box in boxes])
     boxes_rr["centers"] = np.array([box["center"] for box in boxes])
@@ -305,7 +306,7 @@ def convert_boxes_to_rr(boxes: List[Dict[str, Any]], color_map: Optional[Dict[st
 
 def convert_box_velocity_arrows_rr(
     boxes: List[Dict[str, Any]], color_map: Optional[Dict[str, List[int]]] = None
-) -> rr.Arrows3D:
+):
     """
     Convert bounding box velocity data to Rerun Arrows3D format for motion visualization.
     Creates 3D arrow vectors representing the linear velocity of bounding boxes,
@@ -324,6 +325,8 @@ def convert_box_velocity_arrows_rr(
     Returns:
         Rerun Arrows3D object configured for velocity visualization with:
     """
+    import rerun as rr
+
     arrows_rr = {}
     arrows_rr["centers"] = np.array([box["center"] for box in boxes])
 
