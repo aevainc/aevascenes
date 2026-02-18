@@ -11,7 +11,6 @@ from typing import Any, Dict, List, Optional, Tuple, Union
 
 import cv2
 import numpy as np
-import rerun as rr
 from PIL import Image
 from tqdm import tqdm
 
@@ -21,7 +20,6 @@ from tabulate import tabulate
 
 import aevascenes.configs as configs
 from aevascenes import utils
-from aevascenes.visualizer import RRVisualizer
 
 
 class AevaScenes:
@@ -42,7 +40,7 @@ class AevaScenes:
             dataroot: Path to the root directory of the AevaScenes dataset
         """
         self.dataroot = dataroot
-        self.rr_visualizer = RRVisualizer()
+        self.rr_visualizer = None
         metadata_path = os.path.join(self.dataroot, "metadata.json")
         if os.path.exists(metadata_path):
             self.metadata = utils.read_file(metadata_path)
@@ -211,7 +209,13 @@ class AevaScenes:
                 semantic_labels=semantic_labels,
             )
 
-            pcds.append({"lidar_id": lidar_id, "pcd": rr.Points3D(xyz, colors=colors, labels=labels)})
+            pcd_data = {"lidar_id": lidar_id, "xyz": xyz, "colors": colors, "labels": labels}
+            try:
+                import rerun as rr
+                pcd_data["pcd"] = rr.Points3D(xyz, colors=colors, labels=labels)
+            except ImportError:
+                pass
+            pcds.append(pcd_data)
 
         # Load camera metadata
         camera_ids = sequence_metadata["sensors"]["cameras"]
@@ -268,16 +272,25 @@ class AevaScenes:
                 ),
                 interpolation=cv2.INTER_LINEAR,
             )
-            images.append({"camera_id": camera_id, "image": rr.Image(undistorted_image_resized)})
+            img_data = {"camera_id": camera_id, "image_np": undistorted_image_resized}
+            try:
+                import rerun as rr
+                img_data["image"] = rr.Image(undistorted_image_resized)
+            except ImportError:
+                pass
+            images.append(img_data)
 
         # Load object detection boxes
         boxes_serialized = frame["boxes"]
         boxes = utils.deserialize_boxes(boxes_serialized)
-        boxes_rr = utils.convert_boxes_to_rr(boxes, color_map=configs.class_color_map)
-        arrows_rr = utils.convert_box_velocity_arrows_rr(boxes)
 
-        # Send to rerun visualizer
-        self.rr_visualizer.add_data(pcds=pcds, images=images, boxes=boxes_rr, arrows=arrows_rr)
+        # Send to rerun visualizer (if available)
+        if self.rr_visualizer is not None:
+            boxes_rr = utils.convert_boxes_to_rr(boxes, color_map=configs.class_color_map)
+            arrows_rr = utils.convert_box_velocity_arrows_rr(boxes)
+            self.rr_visualizer.add_data(pcds=pcds, images=images, boxes=boxes_rr, arrows=arrows_rr)
+
+        return {"pcds": pcds, "images": images, "boxes": boxes}
 
     def visualize_sampled_frames_from_dataset(
         self, pcd_color_mode: str = "velocity", project_points_on_image: bool = False, image_downsample_factor: int = 1
@@ -303,7 +316,8 @@ class AevaScenes:
 
             sampled_frame_id = random.randint(0, len(frames) - 1)
 
-            self.rr_visualizer.set_frame_counter(frame_idx=sequence_idx)
+            if self.rr_visualizer is not None:
+                self.rr_visualizer.set_frame_counter(frame_idx=sequence_idx)
             self.visualize_frame(
                 frames[sampled_frame_id],
                 sequence_data["metadata"],
@@ -332,7 +346,8 @@ class AevaScenes:
         frames = sequence_data["frames"]
 
         for frame_idx in tqdm(range(len(frames)), desc="Visualizing frames"):
-            self.rr_visualizer.set_frame_counter(frame_idx=frame_idx, timestamp_ns=frames[frame_idx]["timestamp_ns"])
+            if self.rr_visualizer is not None:
+                self.rr_visualizer.set_frame_counter(frame_idx=frame_idx, timestamp_ns=frames[frame_idx]["timestamp_ns"])
             self.visualize_frame(
                 frames[frame_idx],
                 sequence_data["metadata"],

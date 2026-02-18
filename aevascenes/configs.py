@@ -50,3 +50,24 @@ class_color_map: Dict[str, List[int]] = {
     "sidewalk": [85, 0, 100],  # purple
     "other_ground": [150, 100, 0],  # brown
 }
+
+# ── Semantic class groupings ─────────────────────────────────────────
+
+ground_classes = {
+    "road", "lane_boundary", "road_marking", "reflective_marker",
+    "sidewalk", "other_ground",
+}
+
+lane_classes = {
+    "lane_boundary", "road_marking", "reflective_marker",
+}
+
+vehicle_classes = {
+    "car", "bus", "truck", "trailer", "vehicle_on_rails", "other_vehicle",
+}
+
+dynamic_classes = {
+    "car", "bus", "truck", "trailer", "vehicle_on_rails", "other_vehicle",
+    "bicycle", "motorcycle", "motorcyclist", "bicyclist",
+    "pedestrian", "animal",
+}
