@@ -5,7 +5,7 @@ description = "AevaScenes Python SDK"
 authors = [{name = "Aeva, Inc", email = "research@aeva.ai"}]
 license = {file = "LICENSE-CODE"}
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.8"
 dependencies = [
     "tqdm",
     "numpy",
@@ -17,7 +17,6 @@ dependencies = [
     "pillow",
     "scipy",
     "opencv-python",
-    "rerun-sdk==0.24.1",
     "rich",
 ]
 keywords = ["aeva", "aevascenes", "lidar", "fmcw", "sdk"]
@@ -35,12 +34,12 @@ classifiers = [
   "Topic :: Software Development :: Libraries",
 ]
 
-[tool.setuptools]
-packages = ["aevascenes"]
+[tool.setuptools.packages.find]
+where = ["."]
 
 [tool.black]
 line-length = 120
-target-version = ["py310"]
+target-version = ["py38"]
 
 [tool.isort]
 profile = "black"

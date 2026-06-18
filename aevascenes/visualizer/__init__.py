@@ -4,4 +4,7 @@
 # The AevaScenes dataset is licensed separately under the AevaScenes Dataset License.
 # See https://scenes.aeva.com/license for the full license text.
 
-from .visualizer import RRVisualizer
+try:
+    from .visualizer import RRVisualizer
+except ImportError:
+    RRVisualizer = None
