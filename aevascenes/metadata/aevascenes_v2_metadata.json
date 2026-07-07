@@ -1,0 +1,2685 @@
+{
+   "dataset_info": {
+     "name": "aevascenes_v2",
+     "total_sequences": 575,
+     "split_counts": {
+       "training": 400,
+       "validation": 31,
+       "testing": 100
+     },
+     "road_type_counts": {
+       "highway": 254,
+       "city": 321
+     },
+     "lighting_condition_counts": {
+       "day": 338,
+       "night": 237
+     }
+   },
+   "splits": {
+     "train": [
+       "00baf481-5e77-4365-b151-f1694222c6a0",
+       "05148593-ea19-4bf4-92d5-d0b0456d62d2",
+       "05d6a82a-e27b-4089-8339-f5eb55a4b91e",
+       "073abaf3-a5f1-4988-b72c-0cfbffc62069",
+       "080f431f-520d-4987-aa68-99a04e1e782a",
+       "08fa8bd8-f82a-4011-830f-94e6d69c1d16",
+       "09026c70-8f36-48d4-bd89-6215161997cf",
+       "09d9164a-bf8b-4ec9-9928-9a441df54841",
+       "0ad0434b-2017-4162-a416-bbd9c0a3d6dd",
+       "0cbc1219-dd28-4859-8e5d-7adb8e988035",
+       "0da83f02-6656-4cff-be0a-c9fd0fa9b2b9",
+       "0fa28f3f-bc23-45b0-bccf-4f0b9f267518",
+       "10f7c72d-bdf8-471a-8943-7c5fe510f2a2",
+       "1211e347-ca8b-4581-895d-220eb810e8cf",
+       "127e83cb-6396-491c-9dbb-667bb7e11f62",
+       "13ba9660-adbc-4229-95cf-4ea193f22390",
+       "14af7fe6-cbdc-4dce-a63a-717327e56aac",
+       "1638011f-e17c-4fe1-86e0-a327e90a368f",
+       "167474d1-6ba1-4f48-bf1d-a8254226d8d2",
+       "170bbc4e-5c36-4ae9-ab79-5a0dfe8450f5",
+       "17293fb2-ac5b-4301-b056-8971680cf1c3",
+       "1730a743-e3d0-4356-b534-d7f5e412e8a3",
+       "188d9c92-5dff-4d8d-98f4-f5051bcf0421",
+       "19ef23db-f905-412d-983f-4c5691557cf8",
+       "1a6d3f31-05ea-4f07-be77-72fd3b96c8de",
+       "1aaf9e82-1b67-48cc-9649-ebe2a441b911",
+       "1c388076-cd35-43cd-abc6-b11add1beaca",
+       "1d03af53-22e1-4a3f-8faf-72e88e9a84fa",
+       "1d966c23-887f-4914-8488-3eb45b1dd82d",
+       "1dd47fbb-27de-45d7-af6b-2d1860a210ee",
+       "1e39377d-92d2-4ca7-ae3c-e9f9a655f8dc",
+       "1efb3883-4f29-46ca-9b5c-501002ee5324",
+       "1f16402a-76ce-40b5-a3c1-fe92a405c2bc",
+       "1f25d862-a460-4924-b600-fa4dbe17b79c",
+       "1f7b27d3-0e43-4c9e-aa49-803a066f38c1",
+       "20c73d0b-7870-4b34-80a9-bcc57aed2519",
+       "22100f10-a4cc-4490-8536-a83520e79221",
+       "22a99ccb-2dc4-4747-add1-1a8578567100",
+       "2312c755-d08d-44db-8ad7-5f77439a5e26",
+       "2323b49b-b056-4384-b60e-8d32ebff587e",
+       "23fa295d-3f9a-4c24-acd0-69033766eacf",
+       "24937d49-8ea2-4f3e-bc6f-daabc6c782ae",
+       "253e3608-bb21-4dd2-bcbe-8123bd00cc0c",
+       "254d470b-67d9-491c-bb4b-52f72760289a",
+       "262ab581-3e19-44da-95bf-8f7cca01f1de",
+       "2721894b-f334-4f15-a56a-8773db39f04a",
+       "273ad281-b4e1-496f-a689-6e92cbe5941c",
+       "2762c1cd-ed93-49f1-9b3c-6dbb6a423f06",
+       "28b2a754-3d37-45d4-8cc9-58a0ccfa6bfb",
+       "28d67bad-9f6b-4d82-9ab8-7e49de249a5d",
+       "28f1e777-d34f-4c3c-89e7-8ed8f4a13cc4",
+       "2954892f-b8f7-42ab-83b2-c31434955dab",
+       "29c98caa-a5d4-4e3e-b59c-6c53d2b899cc",
+       "2b2d025e-153a-4e44-87e5-0098828da8b6",
+       "2c816a74-054d-4e59-a3b3-13ed79030a06",
+       "2caf9c2b-9a84-4d31-aa3f-6b85d557d878",
+       "2ce0b320-90e5-4d24-a5a7-227875ab75d0",
+       "2ce526e1-1868-4006-9a27-8724fb73376b",
+       "2d4a2526-2b90-4c74-bc3d-1121caad2551",
+       "2d4a4f8b-e900-4075-83ee-2a0ae58d2cc4",
+       "2dc3a21e-57ab-4941-98d1-a110c2cde428",
+       "2ebfbb87-f6bc-4e2f-ae8b-a993eeb8c70c",
+       "2f877859-2889-4ae7-9d66-8db771404830",
+       "2f95c84a-da4c-4404-aa29-4719ad43bdd2",
+       "2f97cbd3-0d63-4159-87d2-a9c58a677698",
+       "316d374f-5598-4a5a-89a2-f603287161d8",
+       "31f58001-3f35-4b31-b626-f793d8342794",
+       "325826ad-3078-446a-8de6-394ebc3ad53a",
+       "327e7cc6-4c84-4f30-a0c0-73acc4714e7b",
+       "33417a7c-cbbe-4877-bc42-c63d67d3e4f1",
+       "340f8494-313a-44b2-9cd1-758a1a2ff3cc",
+       "3411ac57-76d2-46c4-9933-8c6fa514d30a",
+       "348a7517-3be1-48ac-8e44-1f65caf8fae8",
+       "34c64fc0-e354-44dc-a807-a2332ddcad14",
+       "34f47541-498f-45de-9d79-bd736831f855",
+       "353e00f8-dc1b-48c0-a370-19d0fba92dcf",
+       "35552e4b-f28c-4500-8a0d-71c3c894dd0b",
+       "35a4c3de-668c-4c2a-bf02-4ee436cc6f3e",
+       "36d4b0da-3cbf-4047-9ea3-8f7e060949de",
+       "3766dda8-ceb0-4f19-a26f-7259a3a5a380",
+       "381882c8-b03f-4a56-bbdc-9a7fcc50b394",
+       "3822172f-e57e-4a9f-bfab-12addab644e4",
+       "390eed4a-6de5-478b-aa01-03df961fe7cb",
+       "39958237-8354-4a5a-b834-7160fe7b30d9",
+       "3a441100-9727-478f-803a-48ba845a39e7",
+       "3ad2305b-5de8-4f16-ad83-ec81e6257a11",
+       "3adfcf81-93ee-451e-ad40-04a002f3aba9",
+       "3bed5f4c-67a6-4c11-8e54-3af665412084",
+       "3c7aa2f9-2299-4096-8dd5-0221426613dd",
+       "3c9c2368-9054-4c1a-9542-34ed3135776e",
+       "3cc6cc64-f173-4b69-8cb4-41f50b5cad36",
+       "3d82daa8-4f10-4d2e-97a8-580cfc70c3b7",
+       "3df4a615-5cc8-4e08-9fc0-4d3958064b6b",
+       "3e2e4f31-c56b-45f6-84b5-4b271aa34200",
+       "3e732b6b-b278-4f32-936c-faadacdadb6d",
+       "3e7dc214-c376-4e2b-9acc-12c2f2e779e1",
+       "3ee5e692-82ff-4c86-ac97-0aa382ee02ff",
+       "3f8b6a3e-3b79-4635-8bf4-818ba8d4eaf8",
+       "4002df63-fc16-4997-a6f9-255889567a3a",
+       "40136ad9-342c-45ae-965e-5b3ae47b8396",
+       "404f3ef8-7500-4ce4-a7f7-80e1f9c28eaa",
+       "410980be-f4af-4d8f-8aab-b4ba3e900aca",
+       "41145f78-990b-4678-b78a-a41ed4a5efb8",
+       "41835ebc-f62f-4612-b0fa-651fe6f62aab",
+       "42243e03-b857-40ca-9a1e-9b99e451a997",
+       "4242ba4c-2eb1-4d95-b0d6-a8145c22cec4",
+       "42531e8e-071c-47be-884a-eebe22d5e281",
+       "42b1d7da-ad25-433b-86e2-1679d27efb0e",
+       "4392eb23-387d-493e-b2df-a1708ac380c4",
+       "43ab95cb-4dae-4427-87da-ae587b1c4cf7",
+       "446de75a-1395-4ff1-9f48-b0bdac938bb6",
+       "44adf7f6-b971-4a8f-8b01-fd40c156d266",
+       "45406dd0-f90d-4962-a2be-3abf700b9a41",
+       "45c4de5e-390f-41d9-99ec-cf49795c62f6",
+       "462df515-5b1f-45f4-acbd-3d7aa708fd43",
+       "464b8997-b803-43cf-8d58-5e78fe4d7717",
+       "46633b38-e0a5-4375-9366-f284882b2f85",
+       "477827a0-12d7-49c5-9d8d-64799ba0c0de",
+       "47ee5aae-3fe5-4336-b116-8a64d1338679",
+       "4811d8be-8575-4b55-8bfb-d31e054f6892",
+       "48d25d3b-3125-466c-88aa-4511f0f0a8d9",
+       "49408bff-1c62-4603-afc2-ab2f86a5e9e9",
+       "499197f0-4f90-47e9-898a-78181e54b11f",
+       "49c8b61b-4ec2-4d63-8f49-eb41416cf7e5",
+       "4b215a43-b114-4129-82a9-4eac817c25b4",
+       "4b31c308-5a23-4dbd-b9e6-0a22b170d7be",
+       "4cbeb604-9e9e-433d-82a6-d2516c074cfc",
+       "4d1b4ff4-fcf7-43ca-a247-acc946892947",
+       "4e524661-f2e1-4878-a0b2-884df9ae5d94",
+       "4e9f9f74-82e2-4270-bde4-01d300d2ba25",
+       "4edf8ca1-6ac0-46e3-bc71-d67fe7df81e8",
+       "4f9e2f5e-2af5-4a1c-b1b4-eaa2137a1e42",
+       "5149fd40-b001-4e20-962f-74307721834a",
+       "527e5610-f8a9-4419-bd89-62f6376d2aeb",
+       "5290690a-a5df-473d-a84b-4d631e91be11",
+       "53776703-63f5-4bb5-9463-8490e85fba7c",
+       "53881584-9d9c-4fa9-96d5-1891fbd9f9fe",
+       "5407607c-00f4-4f15-a99d-b810a0511550",
+       "5513da5a-dc97-4aee-bdbe-91491f6bf2a6",
+       "565d2424-4d4b-4038-9781-b34091da7d88",
+       "57bbcac9-7777-429c-b7d9-bccbb4e80cdc",
+       "57c869e5-b87e-49b6-9099-d4dce1d853d8",
+       "57fdd63b-2a8a-462e-871c-63b56c9434e5",
+       "584ec0c3-81fc-4290-a8ce-93c23f75c5ba",
+       "58b2f50c-b934-484c-9701-55b0af77adec",
+       "59521ac9-d798-45bd-96f0-ac5639649b21",
+       "5aff0fd4-c92e-417a-951d-cfd94352b600",
+       "5b75a707-c130-40a2-b7f6-42847b12e6bf",
+       "5c1c0ab5-479e-41a4-85f0-b530e430215d",
+       "5cbc414e-e0d9-473f-855a-83e953bd1a9e",
+       "5cbdda08-ecbb-445c-a3a3-fb043507e8fd",
+       "5d5396fa-13d3-4314-84c6-30c38e86efc0",
+       "5de7e85a-2883-42f2-8119-8111e7480555",
+       "5e7e810d-b70d-4625-bb51-72ea734e7c38",
+       "5e8c1f9c-2c3b-4109-b91b-8dda0d3efc6a",
+       "60c9c88b-b066-4020-a128-8dcec34d6836",
+       "60fbbcc3-5235-4d01-901b-cc6117615c50",
+       "61418187-f684-4b56-b49e-bdb5137efe86",
+       "614b4811-1431-4ced-9c6d-350e9eb8078f",
+       "6243c481-285a-4310-8119-29885300dc38",
+       "626faf58-6441-415d-ac78-5fcf2ab196ce",
+       "62e7825e-a44e-4fa2-8290-141a330b5bcb",
+       "62f76d6a-c9cd-4f0b-8a2f-d92d1b6c70ca",
+       "644564b2-6b5e-43b5-a430-e309eafbd5da",
+       "64f7e405-6567-4fff-b090-5b32e33db85e",
+       "65b0db53-a485-48bb-87e2-5d9886686629",
+       "660dafc5-9c61-4404-966c-1b21ad00de84",
+       "6641c207-acaf-49a4-9022-7ba8c27c98b9",
+       "66e6ca68-2509-474c-bf7c-20c1b564a05d",
+       "66fb7747-2ca7-4c0c-9b54-a5d4006feade",
+       "679aec5d-33f6-44c6-b8bb-2d827db38f94",
+       "685077b9-a3ff-4b9f-9fd3-440a39871751",
+       "68d3af5e-a3df-4418-a1f4-807fcd3b03f5",
+       "68e6b5aa-6974-4c4e-9d6f-42b0f3f9fcfb",
+       "69d3e3f2-6a0b-4a33-b6d1-a90f81b91b59",
+       "69ff85eb-db27-4c47-87f6-fbfbb52af8e2",
+       "6a43800c-857f-4be0-908c-ca16c4141d86",
+       "6a447659-9dc7-4001-9c65-bea9d949b6a5",
+       "6a6f9466-f290-449f-ba0a-8632cd68b064",
+       "6b28c70e-4003-48bc-8746-109fb6b10eba",
+       "6e1a53bf-66da-40f7-b115-b46fd14832d7",
+       "6e1d4458-0a44-46da-b2be-59bae5e59aa9",
+       "6f0a1829-1e1b-416e-9e73-18aa22374a04",
+       "6f40f8e0-9fc6-4823-84e2-c7703f5bdb21",
+       "6f506346-3a7f-4a22-aa79-6953c7574430",
+       "6f578dda-738f-4606-be30-15c7f57d5dba",
+       "6fc01e6c-a0c7-4ba0-9c1f-17f66086a358",
+       "706b77be-c488-4435-9049-eb86c11437e8",
+       "713a7a40-b01c-41e1-9aa0-27a35745767b",
+       "7235a9e6-02b6-4f40-ab4e-fd0d13587f03",
+       "72d349ad-c577-4b78-ba75-4fc467f01d36",
+       "73ad8785-40ff-4be7-9793-e5bfcd580558",
+       "73d44a32-1278-484d-8c15-6dbd3f8e2961",
+       "7467da41-dd5b-4595-9c9d-cdde03af7d00",
+       "755cdd7b-ff2a-47a4-82d8-652e992665e4",
+       "7607334b-175a-44c2-9522-d1b445b826f6",
+       "77dc946e-0c97-44f2-beba-0818708ea574",
+       "77ffb043-0ff8-4f3e-aab5-1f95ebe77d0a",
+       "7861adb4-396d-4ff3-8333-bb3e23570125",
+       "78b5245f-6103-4eff-94b7-3a20787eab27",
+       "78e5989f-a86e-4732-b87c-08325b8a8feb",
+       "79d982f1-efdf-44bc-a2ef-8423affa353e",
+       "7aca74e5-aae5-4f31-ad04-a0bd0ca91ee8",
+       "7b0aafe2-6003-4a36-a310-2e7b9ee39215",
+       "7c16c414-b772-415a-95a5-02771dc2b605",
+       "7c8819e7-7d07-430c-9e66-f4d316e115a3",
+       "7cca75c0-7a4a-4e9e-9eb8-9be4e7781957",
+       "7dfcc630-b9f9-4141-a0d6-ab0d3a114d03",
+       "7ef2f7d4-68ce-4b22-85ff-1da84450577d",
+       "8022310a-0be8-4490-9859-d83a08207296",
+       "80e4f1af-f62a-451d-bae6-4aa4d25662b7",
+       "82759ebe-2e3e-4fcb-a0a7-6f713694cfee",
+       "8295a5a1-4fc9-4fc9-b0cf-3c13a2bde12d",
+       "83c8c0ce-a67f-47b9-938c-e424e05e9db2",
+       "840f9a05-9d96-42b0-8ad5-7b8cea3eef9d",
+       "84eecf8e-011d-469c-90ee-0d85288f5d1a",
+       "8566fd3c-215c-4c05-a9d9-e90ba97f7118",
+       "8587e815-491e-4fbc-9f2f-ae3836cd9b84",
+       "8720e50d-32bd-4380-8bd4-69db966ab341",
+       "8751208c-3288-40bf-ad4f-3e6dc0003dce",
+       "8824c615-d91e-46ca-814f-0f69cdd337fd",
+       "88710ca7-4764-4b11-9111-1182a1adb32e",
+       "88af2ee4-e650-4ef9-b571-83b8117b1c79",
+       "89bc672e-74a4-4460-b9fd-a13483b845b4",
+       "8a43d073-bc6e-4462-8c63-259b87fd33e7",
+       "8ab37217-0773-4acf-8459-6f1052618a9e",
+       "8ab8e8fb-b001-402e-99d6-fb92a4c6347b",
+       "8b548ae2-fdd0-40b7-918b-3a84209affe6",
+       "8c29d66e-19ba-473e-8ea3-819f8514adb6",
+       "8c9aac42-931c-4352-8e54-926066662323",
+       "8c9bbd7b-ad77-4f8a-8447-1608eec48189",
+       "8d91d30a-709c-40ee-ac31-e636a399f605",
+       "8eb5c84e-e929-4840-9a60-13a9a9e0dcde",
+       "8ec4dc28-8b08-4b28-98c5-7503be14a0e4",
+       "90325d2d-d3b7-4a3f-95fc-d537bd0ed8c2",
+       "91baaf0e-3de8-4652-a23b-08f9765297ac",
+       "9254c0b7-af9f-451f-ac3b-fe108c6a3892",
+       "925741f8-2eea-40bf-bf40-e078ef88ba7c",
+       "92a81979-ec5c-47fd-b6fd-4043ab42ddd9",
+       "93d8bfc0-dde0-4fc8-9c0c-02c29a7adf17",
+       "948102df-4791-443c-9d4f-5205a47b87b3",
+       "95757960-7284-4ca1-ad6d-cc29f2cde999",
+       "95ae8de0-7103-4a5f-9338-cc8a063f5087",
+       "95caf691-0697-49d6-82cd-49790ef73622",
+       "97e4dc18-3754-451e-90b5-365c80cdbe25",
+       "983c094f-a8cb-481e-8f80-fa9291fce3d8",
+       "98751857-b799-4550-a40d-388ed3e94353",
+       "98a95fa4-02da-42d1-a11d-6e188cdb270c",
+       "99129dd9-5c88-46ad-8572-318c86afc045",
+       "9b6fe942-dd37-4d6a-8cd2-4229e292bf24",
+       "9bd6dead-eea6-4a1c-9c34-5b97ec0a9b84",
+       "9c39a102-a7a3-4192-b5e3-ecc7497da811",
+       "9c597e8e-f8a5-4343-acbf-126954cb4d28",
+       "9c7a786a-fe07-4f93-a0f3-2dca1d042643",
+       "9cbe674c-c212-448a-939c-f6f24fd78959",
+       "9cc2aebf-ee5f-460c-b262-f3431d63d226",
+       "9ccf28c7-b2d5-49af-94ce-196dd114f0ba",
+       "9cfb2617-9f64-499c-9441-ec93510f4cfa",
+       "9d276a0f-ea8f-4664-9cc4-d49f384b5b16",
+       "9d7bd80d-91d2-4248-992e-7a3355a2abcc",
+       "9db274b8-0840-4960-9dd1-c440f68d42ed",
+       "9e4d9ed1-2a25-47b1-a9ef-18ddc2d13e9a",
+       "9e71ac6d-002d-4cce-9d71-59d9f0e84797",
+       "9e7cda0d-a107-47c2-94a3-113e06527c35",
+       "9f9efb0e-d791-43e9-a357-e82c80b184bf",
+       "a02b8282-78b5-4d8c-aaea-166cbb48e978",
+       "a13e1d87-6c72-497b-8551-161db91291a6",
+       "a2c881b6-e46c-4e26-b029-667613a35da9",
+       "a2d8f140-3e03-418e-8b95-5c4e563bbf6c",
+       "a3b4abf6-2208-4b51-9d2f-caca320091fb",
+       "a525b2f6-ee78-489e-aaf9-8f8d996aaa0a",
+       "a61b3a94-f36d-4194-bd80-40e5d8e62975",
+       "a61d3059-1cca-4333-a344-60ee8864319c",
+       "a90816fa-2441-492c-a1cb-d792d95153c4",
+       "a92f4f9b-1d4b-46d1-a2be-f7d5c7e99410",
+       "aa1e7fac-87e0-4b18-a93c-cc55e48d6f92",
+       "aa8b5e26-bc84-468f-bc2a-ac3ee858e869",
+       "aad1a539-65e0-4431-9982-bd0b3b0d0be9",
+       "ab32abe2-68ec-4cc8-95c1-483b8433613a",
+       "ab52c2f6-169c-4071-a814-89432a8d7cdb",
+       "abf69b3a-1512-4d89-a291-789ee393a89c",
+       "ac8e3f01-5271-4e3b-b2de-6c1ff08e7233",
+       "acf3a65a-30a2-488e-a696-fa74c46bc40b",
+       "ad0ae1ec-9ba6-4147-af75-27bc17f199c6",
+       "adbd546d-edd0-4c40-a3f3-4d9a880859c7",
+       "af958d31-e2e4-4646-8baa-2ee707e45629",
+       "b21f8088-c022-4a81-86da-2ac052131757",
+       "b2fc4f80-d71c-4254-870d-4599d8452b94",
+       "b31cc7da-d30d-4bcd-8460-aba8a0c78420",
+       "b377d33c-3e3c-416f-8d19-0273aa38067a",
+       "b40bf31f-c0a3-46e0-93b4-97cc53ea3acd",
+       "b4e7a4ad-e237-45be-8c0d-4a066ccdeb61",
+       "b582461e-a150-41c1-9a90-19c7bb6f7779",
+       "b7c4425c-f9fb-409f-8378-86b92e6d1dcc",
+       "b8208a59-fbd3-4e25-89c0-0dbac51fc51f",
+       "b875a1c1-6214-4963-8c20-958ffbea79be",
+       "bb5bef7a-9267-47b6-b139-ae2e238757a7",
+       "bcdfe56f-e785-4896-a9be-2a4c42a27992",
+       "bd3b2d7b-bd5f-41c3-a4f7-88ba53b32d95",
+       "be071c82-e71a-4ae5-ae58-f382379833a1",
+       "bf6e85f1-5ddf-4a2c-a6ab-91d29e10c1f0",
+       "c07a046d-bee0-42c5-b7b7-fc5b438c2627",
+       "c0ed60f1-a3e4-4aff-aa64-da83b43d7f2c",
+       "c1408b9b-acd1-49b9-a3d6-5d668baf1336",
+       "c1fd6346-c96c-4cbf-9e55-61073be45932",
+       "c31185ad-805f-49bc-b828-d896eb2a9e15",
+       "c37e6b3e-e67f-4c74-bf83-cb1041046da1",
+       "c4cf23e5-01a3-4192-af49-be7eb6798e3c",
+       "c51c9088-8484-4c1e-bce7-b52aeb6380ff",
+       "c54df8ce-7ad9-47f3-be7d-d6ed889cafb4",
+       "c76e9fd3-bdb6-43e4-84c8-269d9ef00c34",
+       "c8c3d999-e06d-4895-bb0b-c4c74dc88617",
+       "c8ff0f17-2b2a-483f-924f-19340f8b4c7d",
+       "c922dd19-c6d7-4b37-afe3-91ac65177167",
+       "c995f4a7-b61b-4cea-8567-bfad20a5692b",
+       "c9c712b4-dceb-460b-a703-9e16bef4c702",
+       "ca332eb5-6375-4057-b502-5ecaf2c98c81",
+       "cb5e6e5a-482b-499b-9b5c-dcbfb7c8fed0",
+       "cbf8e70e-5421-4e94-8a43-3f622255ba61",
+       "cc385bd4-6d04-4455-a11f-50387b0d7539",
+       "cc7a1a15-78fe-4200-977d-117457932969",
+       "cc7a5a5c-c85c-4ceb-a7ba-1ef1b429edd9",
+       "ccd75163-46a8-4638-a1cd-14c0eaf0957a",
+       "cce66d39-5140-46c0-ab35-c360619619ac",
+       "ce3b06a0-69f8-4e58-8be0-dfa4548363fe",
+       "ce49cba9-2736-484e-a569-84d22bc23c98",
+       "ce5b3b4d-da07-4a70-bd5e-7191f76026a8",
+       "d103befe-e993-4c72-add8-3edff4530b63",
+       "d15518bb-fc13-4693-93f5-11a15fa09037",
+       "d21dbb1f-d6a5-42b4-8313-d091f472ef12",
+       "d22d3d4b-ec11-4ae3-a41e-590474263df8",
+       "d22dbf7c-2984-40a1-94fa-832bf55e2c40",
+       "d29d5e10-5833-465a-9b2b-291c5b20b9a6",
+       "d2a5306f-fa00-4558-8ca5-a7d3aca840b5",
+       "d3eb33cb-b703-4574-875e-0c1b70261866",
+       "d48728a5-803a-4a68-b383-d044ae02637d",
+       "d57b2869-188a-4348-8a39-13207f99821a",
+       "d59956ab-95b5-4207-9a68-abc4513005d8",
+       "d5b70f52-ef7c-4ae9-aeb9-5f38edff44dc",
+       "d6a1acd6-ba89-476e-bb02-efef9d3aac99",
+       "d7a91bab-ed32-421a-922c-44e7d8bfeed4",
+       "d896c673-7ced-4bd5-b342-46ba19abe04d",
+       "d8b64c88-5d84-4784-b49d-04ca5616c786",
+       "d8c3790f-c20e-4c62-b71c-c525d182b46c",
+       "db365dea-6d61-49a4-95e8-e42da4faab45",
+       "db9be51f-b261-49da-90bb-588efa479598",
+       "dbc2e1e9-551c-4036-acb6-f1d0ba2cd02a",
+       "dbd23566-fbf7-4c05-9f51-6910b0c51308",
+       "dcbd9989-dcbc-40c6-acbd-e22057d102fa",
+       "dd36d75d-6850-4d87-8e2b-12c5f48acb97",
+       "de1c537c-d1a3-4466-ae08-3b76325f64d2",
+       "deb618de-5acb-473c-9f08-b860f18893ca",
+       "dfae5600-a7a5-4a55-a69e-294f8d74ff46",
+       "e07cfaa7-bfcf-4f02-92d5-36dfd0c279dc",
+       "e1191b8d-e74a-4b71-8c09-8b685e3e4fd9",
+       "e15b304e-bd91-41ec-b552-707182facd08",
+       "e2014b6d-3057-41fa-98e6-cd3ffccff431",
+       "e25166fa-ed71-4c90-b883-e780f9251bf8",
+       "e27f3c7b-c8ca-4b20-bcd9-5b9159e9ef50",
+       "e46f27bc-8bbd-4131-a0a4-e93a8c536345",
+       "e4e05d74-2999-45db-b3ae-cf5ac5d48d49",
+       "e512a9d8-4f15-4240-bf80-b450c39dcace",
+       "e558a779-557a-4dfb-899b-777773b0428c",
+       "e6b8b91d-87cd-4827-9510-b871a788183c",
+       "e6fa3281-8b99-4217-9bac-dc636bafd8ae",
+       "e7e7a6dc-890c-4aa6-85df-aa6e2f03910c",
+       "e8545e66-d49b-4e98-b9e1-e60029b4dc45",
+       "e8814da3-dda1-42b7-bbc6-8a236240b4d3",
+       "e8f5ad49-8e12-4a9f-85c3-9843c444988c",
+       "e916c32a-4cd0-4d35-82f5-23e5d40c1a20",
+       "e92e6578-8506-4984-b1d4-c5c228527b7f",
+       "e97b1d63-a710-438a-bf6c-8baf46c72181",
+       "eba79c42-b643-49ba-a9a6-c10fed2b0708",
+       "ec5d216e-babf-4079-a1f9-81e410fdce7c",
+       "ed3d7c53-62df-409d-b59b-ef5737795cb2",
+       "ed42df83-b36c-4d74-b5cc-2f4f9b939687",
+       "ee8b18a8-b609-4c78-afa8-4f899e472851",
+       "eea25001-824a-4c89-bf23-00b0852b65ac",
+       "ef4eeaed-21cf-4660-84c6-58a530deffa4",
+       "efc25ea1-44ac-4f8f-bbdf-05ee727491ae",
+       "f0b449e3-3e2d-4d01-a08e-0d43c3626e58",
+       "f0d05da0-0884-4e89-bc64-d45825d5dbc2",
+       "f0dd1e4b-0b39-427a-bf97-9adccdf84d3d",
+       "f0e9862f-3366-43b9-b653-df2e129ca252",
+       "f164b998-c25b-4664-ae6a-e1f9e04e3ef5",
+       "f2025982-6805-4344-8243-6566871fe364",
+       "f27561ff-b6bd-469f-92d2-d84e21a84c92",
+       "f5a76d6e-4c01-4c82-8d59-a7abffb07a17",
+       "f703db23-c83e-453b-814d-1d824d411e9b",
+       "f83fcc39-86fb-4917-aa38-89827399df8d",
+       "f899e80b-3aad-4fa2-8179-85d82403a130",
+       "f8d71053-6b3c-4b56-8b40-3388b534f471",
+       "fb36e691-d87a-4bf4-b0ae-a276a6ea5f44",
+       "fc4262fd-74be-4b19-9eec-fbcc298e9a99",
+       "fcd214f5-0c27-4e59-bfd1-6b3c0104723b",
+       "fd31ae59-17c2-4c8c-b438-f65e5dd8cc61",
+       "fd37dc12-4091-4975-bbdb-e7ddaee079d8",
+       "fd47436b-8809-4970-a0ad-c9523ceec106",
+       "ff347c94-efed-4d2c-9fb1-685b9a59ebc6",
+       "ff936497-f57c-4b22-a1bf-f5ef8a5453ae"
+     ],
+     "validation": [
+       "00d1f3e2-2940-4c62-834d-9ae1181adb13",
+       "012db0ee-2883-471e-8d0d-8807f1984f0b",
+       "01452213-7eed-48d6-a953-fadbb3096759",
+       "016bb412-392f-45cb-9541-da0c3512f419",
+       "019fa3a5-edb9-4ec0-8b63-58b2e75636d8",
+       "0247b973-6167-454b-b9cd-283f8a0e8cb0",
+       "03c03897-a1ae-4850-bec8-927961eca52f",
+       "049c2a4d-b4b2-44cd-b94b-a14f00f7e223",
+       "055ed4e4-37f8-4bf4-9630-9bd48a3b07a0",
+       "06791cc6-a3c4-441b-a17c-643ef9252495",
+       "06d9b23b-796c-4074-9867-7ec1929130a2",
+       "07fe956c-dacb-4427-965a-17e4143ee16a",
+       "08ca7d54-2983-4ad7-b744-87611ea1acd0",
+       "09102d5f-3edc-45ef-a377-bae7b078b1fb",
+       "0d2ade61-0f50-468f-8788-551cb20f751b",
+       "0e2a8ee5-4da3-496e-9e53-0b3a293580d8",
+       "0e5d3988-37a3-4404-8bb4-b5469b1f0985",
+       "11208d69-7c3d-4b39-bcc6-d753281df49d",
+       "114360d1-97c0-48c9-9652-71588c22b250",
+       "116a8e86-2d42-4a1f-969d-b25eca523c3e",
+       "12f0fb0b-ab99-4745-961a-a1dee7004cdc",
+       "134c00d8-e36a-46fe-a860-6b0196762570",
+       "17d05835-af47-42f8-b9f9-b9e2675c8dc7",
+       "1fe7898b-69e4-430a-85a0-c3c7fbb37d1b",
+       "213bec9c-a4ab-411d-bb25-bac485031659",
+       "321e4325-6765-48fb-8c54-e517aa3eb81f",
+       "509c6998-7827-4ae3-87f8-bd9a200ed909",
+       "5b6dfc05-b9bd-4bc9-9117-e672baaa5601",
+       "6e20566e-3d66-46ac-809a-74303297f586",
+       "b3bb1912-36a4-4e95-ad3e-9c8d3f6931eb",
+       "d3fa1bbd-df0b-4a4e-aaa3-43efe1413d5b"
+     ],
+     "test": [
+       "06d23312-e959-4f1e-9d57-b04ac9efa8dc",
+       "0c0dbee0-55eb-4379-8821-2e028e7c5229",
+       "0c5d483c-4e62-4da2-b385-4ca97444e00e",
+       "0c716148-5d37-45eb-813a-91b9a5f45968",
+       "11b4eb58-b434-4619-8b08-79f70329738e",
+       "16b08a86-da8b-49b4-8d96-c4d8f707fb97",
+       "18803548-95f7-4833-9f01-3e548564f102",
+       "1b991d9f-b372-4f13-8557-600599c68981",
+       "204664ce-7ccf-4464-abe1-e6d0e18c618e",
+       "219282eb-ce58-4fb5-8981-af12168ec5f0",
+       "22b93b1a-5091-450c-a121-6c5dadb74abd",
+       "236f8564-53d0-4292-88d1-4690aab2be76",
+       "25b804a3-e5d7-4612-b41e-ee3639c07126",
+       "29fac7d5-2a05-46e4-b0ec-1a3d44e5e153",
+       "2ad73950-3373-4a77-8c9b-178e957fd484",
+       "319a7090-8015-4c88-8d7d-a3efb095fc95",
+       "32acb4c3-39c0-4fd3-8bc8-889deb9be6eb",
+       "36b1156a-7d70-45cd-b74e-095243d008cf",
+       "37778b7e-819e-4c68-856a-b4fb0d6f05ba",
+       "37cbf65b-c51c-434e-ba2f-151340804cad",
+       "37f1131f-9ee8-400a-9d75-bcb6d1718084",
+       "3a7f9f97-2b87-4662-a9d2-20e072c85766",
+       "3fa9c38e-fafd-488b-a2f8-fbca1774ea46",
+       "42ecfb1a-c107-48fb-9e39-7fc03526c32c",
+       "44848e92-4848-4c32-bbbb-d79a4edc88c4",
+       "48ef4562-dc11-4169-a644-d453b8096c39",
+       "4a0f185e-5d61-4a41-8681-887ae471ac6f",
+       "4e506017-2687-422a-a4da-23fbe9768c8c",
+       "4ebf2320-1ae8-4049-809e-a54c53e73f3a",
+       "50a7efca-1df5-40e8-a5b3-2b6a2a55d0d9",
+       "5513187e-d5a2-443d-b793-10372fa6f20a",
+       "5625970b-f008-411a-9a15-4e7e7d54562c",
+       "57252c6b-eab2-4410-a22e-4cd91e5b9f12",
+       "57779497-d76b-4744-a2c7-1704ce9e29b5",
+       "57e1b453-a385-4155-b7f5-12da2625c13d",
+       "5f8d8714-c454-471a-99b7-d817f1efdb3e",
+       "6083e9b6-27b6-4db3-86c3-ad95d75a542d",
+       "63809a8d-fc72-4d7e-a730-7b31065ccaf9",
+       "655a1fb3-1af4-4ae1-ad5d-c428a70b99a7",
+       "6681eae2-3db4-4b15-b334-996f6fe1f456",
+       "66a093ff-e679-4a6f-8527-dd4d4294bb6c",
+       "67025a15-f952-4f5c-a012-418cd3fd7fec",
+       "6a8e88a0-d582-4253-9e6d-a8794aab6275",
+       "6b612ef3-3632-4f1b-907b-3e736bf38789",
+       "6dcf77f5-15a7-4bb1-a3cc-e2507a646d36",
+       "7019037e-ec41-49b7-bff5-5e0fda9468a8",
+       "71614065-3386-474a-bd15-fb63e0571401",
+       "735fe6ab-f545-484f-b06b-4de11cc8f0b0",
+       "74753d2c-246d-4a2c-ac60-4988d6bf7e91",
+       "77c98d95-f7ac-4e8c-bfbd-f7255bc7ca46",
+       "7eab2542-6b46-4bac-a479-b10035b2bc6d",
+       "82dde8ec-b401-4869-80fc-5d020f010028",
+       "8491becd-aa59-430b-bfb5-75054e884d69",
+       "870677d0-8aff-4c93-89fe-b88798ec27b0",
+       "87ccb04c-f54a-4e23-a732-a741dbe2e116",
+       "8974fa97-6b04-4395-8c9f-1bf4e9d6342e",
+       "8c3b7223-d297-4e19-be74-a9738dcda655",
+       "8d2eae90-5211-43d4-93c2-4c5cdd021ca8",
+       "94fe0abd-99be-434e-b1b0-8cbc1e4110bc",
+       "9676f7f6-591a-4683-bdee-d392309957ab",
+       "9aa1ae82-f598-4ac1-ad39-f456e0e376f3",
+       "9b4c8ec7-76ae-4436-9d96-4d6d4189996a",
+       "9b8818e1-3f54-4ae2-852f-d0883e5871d1",
+       "9e059923-6fd5-486a-96cc-8ed7506f7505",
+       "9ed3d822-06ee-4cd6-b79f-9f7a73382244",
+       "a1b27b61-a561-492a-a7e6-d0f22b311c0d",
+       "a2df9fb8-dc47-4c09-9826-4b7567878e5e",
+       "a425fb3b-e323-44e7-9839-9fc43685888d",
+       "a5005cfa-5e7b-4b91-99f9-30d480f4e796",
+       "adbf4b0b-545b-45fe-9a94-eae8bbb62729",
+       "aefe19a9-a606-4aaf-b7c0-3b497a907bc2",
+       "b003545c-87fe-4ba9-8ab1-103335557127",
+       "b143d679-0276-4275-adb1-0ede4d9fdd66",
+       "b590cb2b-4309-4971-8332-5a5615a311f1",
+       "b6375fd3-b120-4b1c-8b56-7beabb374a30",
+       "b889de84-95fb-4e95-953f-0db84bbcff77",
+       "b950d794-7417-49f3-b4af-7367ba0f1f75",
+       "bb022a71-9a87-4928-9839-54fac5986716",
+       "bddac580-911a-475f-83a7-98feb5891ff6",
+       "bdf06482-fcf4-4001-a976-762c63ba9301",
+       "beff524e-a174-4402-a7b4-9ebc322781a4",
+       "c043b481-a33f-4c7d-8dd6-e56797815f89",
+       "c2087ed8-56ca-4c5c-8006-e9a2c62bdf24",
+       "c34f9b47-ecc7-457a-9330-895f6e002157",
+       "c418d135-f5c8-48c6-99d7-aa264426be74",
+       "c7668f2e-d921-4a0c-9ab6-87163ec3d9b8",
+       "c7c051ae-9cd3-4b9c-9176-f5a900bf1210",
+       "d21d3d77-faec-4820-ad11-c9bf8aceb97c",
+       "d45eb64d-cfe0-4e1a-a992-ee4f384aa647",
+       "d601ad8c-134d-43a5-a646-096d7b691105",
+       "deaa80a0-58d0-4b34-9add-e88ee9bb6f82",
+       "e038d0b7-c30b-4a5d-972f-d4ec1910c517",
+       "e4df33fd-1e62-44d6-9a74-5e34f2b1153c",
+       "e4e88337-c424-41e2-8175-629a42cacfeb",
+       "e8f2844e-6abd-46f0-b858-7e74bd387179",
+       "eabd7f22-f105-42de-b572-c8b3f02bfccc",
+       "ec960c1b-e00b-4286-a44f-c334bc455d6b",
+       "ed4fb611-c526-4c9e-b6f1-7305778884a3",
+       "f9233de0-84d6-41ac-9ed0-d27c2517c5ec",
+       "faa7b8a5-8054-41cc-b6fb-7d25473fbb24"
+     ]
+   },
+   "metainfo": {
+     "34f47541-498f-45de-9d79-bd736831f855": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "340f8494-313a-44b2-9cd1-758a1a2ff3cc": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "6f578dda-738f-4606-be30-15c7f57d5dba": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "d3eb33cb-b703-4574-875e-0c1b70261866": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "fcd214f5-0c27-4e59-bfd1-6b3c0104723b": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "d15518bb-fc13-4693-93f5-11a15fa09037": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "e25166fa-ed71-4c90-b883-e780f9251bf8": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "1aaf9e82-1b67-48cc-9649-ebe2a441b911": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "45c4de5e-390f-41d9-99ec-cf49795c62f6": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "40136ad9-342c-45ae-965e-5b3ae47b8396": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "53881584-9d9c-4fa9-96d5-1891fbd9f9fe": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "b582461e-a150-41c1-9a90-19c7bb6f7779": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "f27561ff-b6bd-469f-92d2-d84e21a84c92": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "2312c755-d08d-44db-8ad7-5f77439a5e26": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "713a7a40-b01c-41e1-9aa0-27a35745767b": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "2dc3a21e-57ab-4941-98d1-a110c2cde428": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "c31185ad-805f-49bc-b828-d896eb2a9e15": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "3c9c2368-9054-4c1a-9542-34ed3135776e": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "e2014b6d-3057-41fa-98e6-cd3ffccff431": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "2721894b-f334-4f15-a56a-8773db39f04a": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "a2c881b6-e46c-4e26-b029-667613a35da9": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "e6fa3281-8b99-4217-9bac-dc636bafd8ae": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "98751857-b799-4550-a40d-388ed3e94353": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "13ba9660-adbc-4229-95cf-4ea193f22390": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "8c9bbd7b-ad77-4f8a-8447-1608eec48189": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "8ab37217-0773-4acf-8459-6f1052618a9e": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "fd31ae59-17c2-4c8c-b438-f65e5dd8cc61": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "3f8b6a3e-3b79-4635-8bf4-818ba8d4eaf8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9cfb2617-9f64-499c-9441-ec93510f4cfa": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "321e4325-6765-48fb-8c54-e517aa3eb81f": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "679aec5d-33f6-44c6-b8bb-2d827db38f94": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "c37e6b3e-e67f-4c74-bf83-cb1041046da1": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9d276a0f-ea8f-4664-9cc4-d49f384b5b16": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "6f0a1829-1e1b-416e-9e73-18aa22374a04": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "28f1e777-d34f-4c3c-89e7-8ed8f4a13cc4": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "ce5b3b4d-da07-4a70-bd5e-7191f76026a8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "ce49cba9-2736-484e-a569-84d22bc23c98": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "2323b49b-b056-4384-b60e-8d32ebff587e": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "17d05835-af47-42f8-b9f9-b9e2675c8dc7": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9e7cda0d-a107-47c2-94a3-113e06527c35": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "d3fa1bbd-df0b-4a4e-aaa3-43efe1413d5b": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "f83fcc39-86fb-4917-aa38-89827399df8d": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9c39a102-a7a3-4192-b5e3-ecc7497da811": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "5b6dfc05-b9bd-4bc9-9117-e672baaa5601": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "7861adb4-396d-4ff3-8333-bb3e23570125": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "57c869e5-b87e-49b6-9099-d4dce1d853d8": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "a02b8282-78b5-4d8c-aaea-166cbb48e978": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "325826ad-3078-446a-8de6-394ebc3ad53a": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "e92e6578-8506-4984-b1d4-c5c228527b7f": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "0e2a8ee5-4da3-496e-9e53-0b3a293580d8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "58b2f50c-b934-484c-9701-55b0af77adec": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "cc385bd4-6d04-4455-a11f-50387b0d7539": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "c0ed60f1-a3e4-4aff-aa64-da83b43d7f2c": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "aad1a539-65e0-4431-9982-bd0b3b0d0be9": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "45406dd0-f90d-4962-a2be-3abf700b9a41": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "f0b449e3-3e2d-4d01-a08e-0d43c3626e58": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "213bec9c-a4ab-411d-bb25-bac485031659": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "01452213-7eed-48d6-a953-fadbb3096759": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "05d6a82a-e27b-4089-8339-f5eb55a4b91e": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "ce3b06a0-69f8-4e58-8be0-dfa4548363fe": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "1fe7898b-69e4-430a-85a0-c3c7fbb37d1b": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "cc7a1a15-78fe-4200-977d-117457932969": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "b3bb1912-36a4-4e95-ad3e-9c8d3f6931eb": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "c1408b9b-acd1-49b9-a3d6-5d668baf1336": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "8eb5c84e-e929-4840-9a60-13a9a9e0dcde": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "509c6998-7827-4ae3-87f8-bd9a200ed909": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "e6b8b91d-87cd-4827-9510-b871a788183c": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "5cbdda08-ecbb-445c-a3a3-fb043507e8fd": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "bcdfe56f-e785-4896-a9be-2a4c42a27992": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "12f0fb0b-ab99-4745-961a-a1dee7004cdc": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "84eecf8e-011d-469c-90ee-0d85288f5d1a": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "acf3a65a-30a2-488e-a696-fa74c46bc40b": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "6e20566e-3d66-46ac-809a-74303297f586": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "ac8e3f01-5271-4e3b-b2de-6c1ff08e7233": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "a2d8f140-3e03-418e-8b95-5c4e563bbf6c": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "7c8819e7-7d07-430c-9e66-f4d316e115a3": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "0d2ade61-0f50-468f-8788-551cb20f751b": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "ca332eb5-6375-4057-b502-5ecaf2c98c81": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "36d4b0da-3cbf-4047-9ea3-8f7e060949de": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "7aca74e5-aae5-4f31-ad04-a0bd0ca91ee8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "7c16c414-b772-415a-95a5-02771dc2b605": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "e558a779-557a-4dfb-899b-777773b0428c": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "499197f0-4f90-47e9-898a-78181e54b11f": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "af958d31-e2e4-4646-8baa-2ee707e45629": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "19ef23db-f905-412d-983f-4c5691557cf8": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "03c03897-a1ae-4850-bec8-927961eca52f": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "6a8e88a0-d582-4253-9e6d-a8794aab6275": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "82dde8ec-b401-4869-80fc-5d020f010028": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "c418d135-f5c8-48c6-99d7-aa264426be74": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "5625970b-f008-411a-9a15-4e7e7d54562c": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "18803548-95f7-4833-9f01-3e548564f102": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "204664ce-7ccf-4464-abe1-e6d0e18c618e": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "116a8e86-2d42-4a1f-969d-b25eca523c3e": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "67025a15-f952-4f5c-a012-418cd3fd7fec": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "e4df33fd-1e62-44d6-9a74-5e34f2b1153c": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "37cbf65b-c51c-434e-ba2f-151340804cad": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "94fe0abd-99be-434e-b1b0-8cbc1e4110bc": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "4002df63-fc16-4997-a6f9-255889567a3a": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "348a7517-3be1-48ac-8e44-1f65caf8fae8": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "9bd6dead-eea6-4a1c-9c34-5b97ec0a9b84": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "e8545e66-d49b-4e98-b9e1-e60029b4dc45": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "4242ba4c-2eb1-4d95-b0d6-a8145c22cec4": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "cce66d39-5140-46c0-ab35-c360619619ac": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "06d9b23b-796c-4074-9867-7ec1929130a2": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "5149fd40-b001-4e20-962f-74307721834a": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "35552e4b-f28c-4500-8a0d-71c3c894dd0b": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "92a81979-ec5c-47fd-b6fd-4043ab42ddd9": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "3411ac57-76d2-46c4-9933-8c6fa514d30a": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "7eab2542-6b46-4bac-a479-b10035b2bc6d": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "adbf4b0b-545b-45fe-9a94-eae8bbb62729": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "11b4eb58-b434-4619-8b08-79f70329738e": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "9b8818e1-3f54-4ae2-852f-d0883e5871d1": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "c043b481-a33f-4c7d-8dd6-e56797815f89": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "29fac7d5-2a05-46e4-b0ec-1a3d44e5e153": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "2ad73950-3373-4a77-8c9b-178e957fd484": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "aefe19a9-a606-4aaf-b7c0-3b497a907bc2": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "1f7b27d3-0e43-4c9e-aa49-803a066f38c1": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "06791cc6-a3c4-441b-a17c-643ef9252495": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "6e1d4458-0a44-46da-b2be-59bae5e59aa9": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "5d5396fa-13d3-4314-84c6-30c38e86efc0": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "055ed4e4-37f8-4bf4-9630-9bd48a3b07a0": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "e07cfaa7-bfcf-4f02-92d5-36dfd0c279dc": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "20c73d0b-7870-4b34-80a9-bcc57aed2519": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "66e6ca68-2509-474c-bf7c-20c1b564a05d": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "d896c673-7ced-4bd5-b342-46ba19abe04d": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "253e3608-bb21-4dd2-bcbe-8123bd00cc0c": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "73d44a32-1278-484d-8c15-6dbd3f8e2961": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "c54df8ce-7ad9-47f3-be7d-d6ed889cafb4": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "09d9164a-bf8b-4ec9-9928-9a441df54841": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "c2087ed8-56ca-4c5c-8006-e9a2c62bdf24": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "beff524e-a174-4402-a7b4-9ebc322781a4": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "b590cb2b-4309-4971-8332-5a5615a311f1": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "ed4fb611-c526-4c9e-b6f1-7305778884a3": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "37f1131f-9ee8-400a-9d75-bcb6d1718084": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "5de7e85a-2883-42f2-8119-8111e7480555": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "8c29d66e-19ba-473e-8ea3-819f8514adb6": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "114360d1-97c0-48c9-9652-71588c22b250": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "584ec0c3-81fc-4290-a8ce-93c23f75c5ba": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "95caf691-0697-49d6-82cd-49790ef73622": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "f8d71053-6b3c-4b56-8b40-3388b534f471": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "0247b973-6167-454b-b9cd-283f8a0e8cb0": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "b21f8088-c022-4a81-86da-2ac052131757": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "049c2a4d-b4b2-44cd-b94b-a14f00f7e223": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "390eed4a-6de5-478b-aa01-03df961fe7cb": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "4e9f9f74-82e2-4270-bde4-01d300d2ba25": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "44adf7f6-b971-4a8f-8b01-fd40c156d266": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "2ebfbb87-f6bc-4e2f-ae8b-a993eeb8c70c": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "925741f8-2eea-40bf-bf40-e078ef88ba7c": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "93d8bfc0-dde0-4fc8-9c0c-02c29a7adf17": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9e4d9ed1-2a25-47b1-a9ef-18ddc2d13e9a": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "660dafc5-9c61-4404-966c-1b21ad00de84": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9ccf28c7-b2d5-49af-94ce-196dd114f0ba": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "b950d794-7417-49f3-b4af-7367ba0f1f75": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "0c5d483c-4e62-4da2-b385-4ca97444e00e": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "0e5d3988-37a3-4404-8bb4-b5469b1f0985": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "28d67bad-9f6b-4d82-9ab8-7e49de249a5d": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "127e83cb-6396-491c-9dbb-667bb7e11f62": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "e512a9d8-4f15-4240-bf80-b450c39dcace": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "1211e347-ca8b-4581-895d-220eb810e8cf": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "d59956ab-95b5-4207-9a68-abc4513005d8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "983c094f-a8cb-481e-8f80-fa9291fce3d8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "2762c1cd-ed93-49f1-9b3c-6dbb6a423f06": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "6243c481-285a-4310-8119-29885300dc38": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "c4cf23e5-01a3-4192-af49-be7eb6798e3c": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "fc4262fd-74be-4b19-9eec-fbcc298e9a99": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "53776703-63f5-4bb5-9463-8490e85fba7c": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "6fc01e6c-a0c7-4ba0-9c1f-17f66086a358": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "4b31c308-5a23-4dbd-b9e6-0a22b170d7be": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "8a43d073-bc6e-4462-8c63-259b87fd33e7": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "c922dd19-c6d7-4b37-afe3-91ac65177167": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "95ae8de0-7103-4a5f-9338-cc8a063f5087": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "fb36e691-d87a-4bf4-b0ae-a276a6ea5f44": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "2b2d025e-153a-4e44-87e5-0098828da8b6": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "019fa3a5-edb9-4ec0-8b63-58b2e75636d8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "7235a9e6-02b6-4f40-ab4e-fd0d13587f03": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "4d1b4ff4-fcf7-43ca-a247-acc946892947": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "5b75a707-c130-40a2-b7f6-42847b12e6bf": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "deb618de-5acb-473c-9f08-b860f18893ca": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "23fa295d-3f9a-4c24-acd0-69033766eacf": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "c9c712b4-dceb-460b-a703-9e16bef4c702": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "09026c70-8f36-48d4-bd89-6215161997cf": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "bf6e85f1-5ddf-4a2c-a6ab-91d29e10c1f0": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "07fe956c-dacb-4427-965a-17e4143ee16a": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "8c9aac42-931c-4352-8e54-926066662323": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "ff347c94-efed-4d2c-9fb1-685b9a59ebc6": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "188d9c92-5dff-4d8d-98f4-f5051bcf0421": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "ec960c1b-e00b-4286-a44f-c334bc455d6b": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "bddac580-911a-475f-83a7-98feb5891ff6": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "6dcf77f5-15a7-4bb1-a3cc-e2507a646d36": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "bb022a71-9a87-4928-9839-54fac5986716": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "3fa9c38e-fafd-488b-a2f8-fbca1774ea46": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "f9233de0-84d6-41ac-9ed0-d27c2517c5ec": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "bdf06482-fcf4-4001-a976-762c63ba9301": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "f0e9862f-3366-43b9-b653-df2e129ca252": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "bd3b2d7b-bd5f-41c3-a4f7-88ba53b32d95": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "42531e8e-071c-47be-884a-eebe22d5e281": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "477827a0-12d7-49c5-9d8d-64799ba0c0de": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "4811d8be-8575-4b55-8bfb-d31e054f6892": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "755cdd7b-ff2a-47a4-82d8-652e992665e4": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "7ef2f7d4-68ce-4b22-85ff-1da84450577d": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "f703db23-c83e-453b-814d-1d824d411e9b": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "e46f27bc-8bbd-4131-a0a4-e93a8c536345": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "1638011f-e17c-4fe1-86e0-a327e90a368f": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "381882c8-b03f-4a56-bbdc-9a7fcc50b394": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "2f97cbd3-0d63-4159-87d2-a9c58a677698": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "3a441100-9727-478f-803a-48ba845a39e7": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "a425fb3b-e323-44e7-9839-9fc43685888d": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "06d23312-e959-4f1e-9d57-b04ac9efa8dc": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9ed3d822-06ee-4cd6-b79f-9f7a73382244": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "410980be-f4af-4d8f-8aab-b4ba3e900aca": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "1c388076-cd35-43cd-abc6-b11add1beaca": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "a13e1d87-6c72-497b-8551-161db91291a6": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "24937d49-8ea2-4f3e-bc6f-daabc6c782ae": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "11208d69-7c3d-4b39-bcc6-d753281df49d": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "22a99ccb-2dc4-4747-add1-1a8578567100": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "b875a1c1-6214-4963-8c20-958ffbea79be": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9f9efb0e-d791-43e9-a357-e82c80b184bf": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "aa1e7fac-87e0-4b18-a93c-cc55e48d6f92": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "2d4a4f8b-e900-4075-83ee-2a0ae58d2cc4": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9e059923-6fd5-486a-96cc-8ed7506f7505": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "4a0f185e-5d61-4a41-8681-887ae471ac6f": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "7019037e-ec41-49b7-bff5-5e0fda9468a8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "c7c051ae-9cd3-4b9c-9176-f5a900bf1210": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "3df4a615-5cc8-4e08-9fc0-4d3958064b6b": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "262ab581-3e19-44da-95bf-8f7cca01f1de": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "6e1a53bf-66da-40f7-b115-b46fd14832d7": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "d22dbf7c-2984-40a1-94fa-832bf55e2c40": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "685077b9-a3ff-4b9f-9fd3-440a39871751": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "e1191b8d-e74a-4b71-8c09-8b685e3e4fd9": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "efc25ea1-44ac-4f8f-bbdf-05ee727491ae": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "bb5bef7a-9267-47b6-b139-ae2e238757a7": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "614b4811-1431-4ced-9c6d-350e9eb8078f": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "b377d33c-3e3c-416f-8d19-0273aa38067a": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "3e732b6b-b278-4f32-936c-faadacdadb6d": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "db9be51f-b261-49da-90bb-588efa479598": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "10f7c72d-bdf8-471a-8943-7c5fe510f2a2": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "0cbc1219-dd28-4859-8e5d-7adb8e988035": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "d103befe-e993-4c72-add8-3edff4530b63": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "43ab95cb-4dae-4427-87da-ae587b1c4cf7": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "5513da5a-dc97-4aee-bdbe-91491f6bf2a6": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "99129dd9-5c88-46ad-8572-318c86afc045": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "98a95fa4-02da-42d1-a11d-6e188cdb270c": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "5407607c-00f4-4f15-a99d-b810a0511550": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "c76e9fd3-bdb6-43e4-84c8-269d9ef00c34": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "48d25d3b-3125-466c-88aa-4511f0f0a8d9": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "a61b3a94-f36d-4194-bd80-40e5d8e62975": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "ad0ae1ec-9ba6-4147-af75-27bc17f199c6": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "8751208c-3288-40bf-ad4f-3e6dc0003dce": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "2d4a2526-2b90-4c74-bc3d-1121caad2551": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "4edf8ca1-6ac0-46e3-bc71-d67fe7df81e8": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "68d3af5e-a3df-4418-a1f4-807fcd3b03f5": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "c07a046d-bee0-42c5-b7b7-fc5b438c2627": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "3cc6cc64-f173-4b69-8cb4-41f50b5cad36": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "3c7aa2f9-2299-4096-8dd5-0221426613dd": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "9db274b8-0840-4960-9dd1-c440f68d42ed": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "170bbc4e-5c36-4ae9-ab79-5a0dfe8450f5": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "29c98caa-a5d4-4e3e-b59c-6c53d2b899cc": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "89bc672e-74a4-4460-b9fd-a13483b845b4": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "e8f5ad49-8e12-4a9f-85c3-9843c444988c": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "e4e05d74-2999-45db-b3ae-cf5ac5d48d49": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "ccd75163-46a8-4638-a1cd-14c0eaf0957a": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "d7a91bab-ed32-421a-922c-44e7d8bfeed4": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "eba79c42-b643-49ba-a9a6-c10fed2b0708": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "6b28c70e-4003-48bc-8746-109fb6b10eba": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "b889de84-95fb-4e95-953f-0db84bbcff77": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "870677d0-8aff-4c93-89fe-b88798ec27b0": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "37778b7e-819e-4c68-856a-b4fb0d6f05ba": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "16b08a86-da8b-49b4-8d96-c4d8f707fb97": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "4392eb23-387d-493e-b2df-a1708ac380c4": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "31f58001-3f35-4b31-b626-f793d8342794": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "565d2424-4d4b-4038-9781-b34091da7d88": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "77c98d95-f7ac-4e8c-bfbd-f7255bc7ca46": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "d601ad8c-134d-43a5-a646-096d7b691105": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "deaa80a0-58d0-4b34-9add-e88ee9bb6f82": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "57779497-d76b-4744-a2c7-1704ce9e29b5": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9aa1ae82-f598-4ac1-ad39-f456e0e376f3": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "735fe6ab-f545-484f-b06b-4de11cc8f0b0": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "c34f9b47-ecc7-457a-9330-895f6e002157": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "c7668f2e-d921-4a0c-9ab6-87163ec3d9b8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "4e506017-2687-422a-a4da-23fbe9768c8c": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "319a7090-8015-4c88-8d7d-a3efb095fc95": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "3a7f9f97-2b87-4662-a9d2-20e072c85766": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "655a1fb3-1af4-4ae1-ad5d-c428a70b99a7": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "b6375fd3-b120-4b1c-8b56-7beabb374a30": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "b003545c-87fe-4ba9-8ab1-103335557127": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "44848e92-4848-4c32-bbbb-d79a4edc88c4": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "eabd7f22-f105-42de-b572-c8b3f02bfccc": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "8974fa97-6b04-4395-8c9f-1bf4e9d6342e": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "6b612ef3-3632-4f1b-907b-3e736bf38789": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "5f8d8714-c454-471a-99b7-d817f1efdb3e": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "faa7b8a5-8054-41cc-b6fb-7d25473fbb24": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "22b93b1a-5091-450c-a121-6c5dadb74abd": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "66a093ff-e679-4a6f-8527-dd4d4294bb6c": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9676f7f6-591a-4683-bdee-d392309957ab": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "95757960-7284-4ca1-ad6d-cc29f2cde999": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "09102d5f-3edc-45ef-a377-bae7b078b1fb": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "42243e03-b857-40ca-9a1e-9b99e451a997": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "88710ca7-4764-4b11-9111-1182a1adb32e": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "cc7a5a5c-c85c-4ceb-a7ba-1ef1b429edd9": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "00d1f3e2-2940-4c62-834d-9ae1181adb13": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "8566fd3c-215c-4c05-a9d9-e90ba97f7118": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9e71ac6d-002d-4cce-9d71-59d9f0e84797": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "167474d1-6ba1-4f48-bf1d-a8254226d8d2": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "fd37dc12-4091-4975-bbdb-e7ddaee079d8": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "ee8b18a8-b609-4c78-afa8-4f899e472851": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "ab32abe2-68ec-4cc8-95c1-483b8433613a": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "464b8997-b803-43cf-8d58-5e78fe4d7717": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "eea25001-824a-4c89-bf23-00b0852b65ac": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "d22d3d4b-ec11-4ae3-a41e-590474263df8": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "57fdd63b-2a8a-462e-871c-63b56c9434e5": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "dcbd9989-dcbc-40c6-acbd-e22057d102fa": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "42b1d7da-ad25-433b-86e2-1679d27efb0e": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9cc2aebf-ee5f-460c-b262-f3431d63d226": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "a92f4f9b-1d4b-46d1-a2be-f7d5c7e99410": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "fd47436b-8809-4970-a0ad-c9523ceec106": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "644564b2-6b5e-43b5-a430-e309eafbd5da": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "62f76d6a-c9cd-4f0b-8a2f-d92d1b6c70ca": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "08ca7d54-2983-4ad7-b744-87611ea1acd0": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "5290690a-a5df-473d-a84b-4d631e91be11": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "6641c207-acaf-49a4-9022-7ba8c27c98b9": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "39958237-8354-4a5a-b834-7160fe7b30d9": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "1a6d3f31-05ea-4f07-be77-72fd3b96c8de": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "273ad281-b4e1-496f-a689-6e92cbe5941c": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "012db0ee-2883-471e-8d0d-8807f1984f0b": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "35a4c3de-668c-4c2a-bf02-4ee436cc6f3e": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "446de75a-1395-4ff1-9f48-b0bdac938bb6": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "90325d2d-d3b7-4a3f-95fc-d537bd0ed8c2": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "d48728a5-803a-4a68-b383-d044ae02637d": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "134c00d8-e36a-46fe-a860-6b0196762570": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "5aff0fd4-c92e-417a-951d-cfd94352b600": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "9cbe674c-c212-448a-939c-f6f24fd78959": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "47ee5aae-3fe5-4336-b116-8a64d1338679": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "f899e80b-3aad-4fa2-8179-85d82403a130": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "db365dea-6d61-49a4-95e8-e42da4faab45": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "d57b2869-188a-4348-8a39-13207f99821a": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "49408bff-1c62-4603-afc2-ab2f86a5e9e9": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "316d374f-5598-4a5a-89a2-f603287161d8": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "1f16402a-76ce-40b5-a3c1-fe92a405c2bc": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "72d349ad-c577-4b78-ba75-4fc467f01d36": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "1dd47fbb-27de-45d7-af6b-2d1860a210ee": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "3822172f-e57e-4a9f-bfab-12addab644e4": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "7cca75c0-7a4a-4e9e-9eb8-9be4e7781957": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "25b804a3-e5d7-4612-b41e-ee3639c07126": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "36b1156a-7d70-45cd-b74e-095243d008cf": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "6681eae2-3db4-4b15-b334-996f6fe1f456": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "8d2eae90-5211-43d4-93c2-4c5cdd021ca8": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "016bb412-392f-45cb-9541-da0c3512f419": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "8491becd-aa59-430b-bfb5-75054e884d69": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "4ebf2320-1ae8-4049-809e-a54c53e73f3a": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "48ef4562-dc11-4169-a644-d453b8096c39": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "6083e9b6-27b6-4db3-86c3-ad95d75a542d": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "9b4c8ec7-76ae-4436-9d96-4d6d4189996a": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "d21d3d77-faec-4820-ad11-c9bf8aceb97c": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "57252c6b-eab2-4410-a22e-4cd91e5b9f12": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "a5005cfa-5e7b-4b91-99f9-30d480f4e796": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "404f3ef8-7500-4ce4-a7f7-80e1f9c28eaa": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "f164b998-c25b-4664-ae6a-e1f9e04e3ef5": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "4f9e2f5e-2af5-4a1c-b1b4-eaa2137a1e42": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "dd36d75d-6850-4d87-8e2b-12c5f48acb97": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "78b5245f-6103-4eff-94b7-3a20787eab27": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "69d3e3f2-6a0b-4a33-b6d1-a90f81b91b59": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "8ec4dc28-8b08-4b28-98c5-7503be14a0e4": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9254c0b7-af9f-451f-ac3b-fe108c6a3892": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "7b0aafe2-6003-4a36-a310-2e7b9ee39215": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "6a43800c-857f-4be0-908c-ca16c4141d86": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "6f40f8e0-9fc6-4823-84e2-c7703f5bdb21": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "327e7cc6-4c84-4f30-a0c0-73acc4714e7b": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "82759ebe-2e3e-4fcb-a0a7-6f713694cfee": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "49c8b61b-4ec2-4d63-8f49-eb41416cf7e5": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "7dfcc630-b9f9-4141-a0d6-ab0d3a114d03": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "78e5989f-a86e-4732-b87c-08325b8a8feb": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "e7e7a6dc-890c-4aa6-85df-aa6e2f03910c": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "254d470b-67d9-491c-bb4b-52f72760289a": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "46633b38-e0a5-4375-9366-f284882b2f85": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "41835ebc-f62f-4612-b0fa-651fe6f62aab": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "17293fb2-ac5b-4301-b056-8971680cf1c3": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "e97b1d63-a710-438a-bf6c-8baf46c72181": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "79d982f1-efdf-44bc-a2ef-8423affa353e": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "c8c3d999-e06d-4895-bb0b-c4c74dc88617": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "6a6f9466-f290-449f-ba0a-8632cd68b064": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "b31cc7da-d30d-4bcd-8460-aba8a0c78420": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "706b77be-c488-4435-9049-eb86c11437e8": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "9b6fe942-dd37-4d6a-8cd2-4229e292bf24": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "e15b304e-bd91-41ec-b552-707182facd08": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "69ff85eb-db27-4c47-87f6-fbfbb52af8e2": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "68e6b5aa-6974-4c4e-9d6f-42b0f3f9fcfb": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "d8b64c88-5d84-4784-b49d-04ca5616c786": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "abf69b3a-1512-4d89-a291-789ee393a89c": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "3d82daa8-4f10-4d2e-97a8-580cfc70c3b7": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "5cbc414e-e0d9-473f-855a-83e953bd1a9e": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "ec5d216e-babf-4079-a1f9-81e410fdce7c": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "88af2ee4-e650-4ef9-b571-83b8117b1c79": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "a525b2f6-ee78-489e-aaf9-8f8d996aaa0a": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "b40bf31f-c0a3-46e0-93b4-97cc53ea3acd": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "1d03af53-22e1-4a3f-8faf-72e88e9a84fa": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "1efb3883-4f29-46ca-9b5c-501002ee5324": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "59521ac9-d798-45bd-96f0-ac5639649b21": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "073abaf3-a5f1-4988-b72c-0cfbffc62069": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "83c8c0ce-a67f-47b9-938c-e424e05e9db2": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "3e2e4f31-c56b-45f6-84b5-4b271aa34200": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "8ab8e8fb-b001-402e-99d6-fb92a4c6347b": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "be071c82-e71a-4ae5-ae58-f382379833a1": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "73ad8785-40ff-4be7-9793-e5bfcd580558": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "f2025982-6805-4344-8243-6566871fe364": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "14af7fe6-cbdc-4dce-a63a-717327e56aac": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "00baf481-5e77-4365-b151-f1694222c6a0": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "d21dbb1f-d6a5-42b4-8313-d091f472ef12": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "d29d5e10-5833-465a-9b2b-291c5b20b9a6": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "6a447659-9dc7-4001-9c65-bea9d949b6a5": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "5e7e810d-b70d-4625-bb51-72ea734e7c38": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "7467da41-dd5b-4595-9c9d-cdde03af7d00": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "3adfcf81-93ee-451e-ad40-04a002f3aba9": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "5e8c1f9c-2c3b-4109-b91b-8dda0d3efc6a": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "3ee5e692-82ff-4c86-ac97-0aa382ee02ff": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "62e7825e-a44e-4fa2-8290-141a330b5bcb": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "4cbeb604-9e9e-433d-82a6-d2516c074cfc": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "8587e815-491e-4fbc-9f2f-ae3836cd9b84": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "840f9a05-9d96-42b0-8ad5-7b8cea3eef9d": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "64f7e405-6567-4fff-b090-5b32e33db85e": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "05148593-ea19-4bf4-92d5-d0b0456d62d2": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "adbd546d-edd0-4c40-a3f3-4d9a880859c7": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "8022310a-0be8-4490-9859-d83a08207296": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "0ad0434b-2017-4162-a416-bbd9c0a3d6dd": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "0da83f02-6656-4cff-be0a-c9fd0fa9b2b9": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "2ce0b320-90e5-4d24-a5a7-227875ab75d0": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "b2fc4f80-d71c-4254-870d-4599d8452b94": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "60fbbcc3-5235-4d01-901b-cc6117615c50": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "c8ff0f17-2b2a-483f-924f-19340f8b4c7d": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "60c9c88b-b066-4020-a128-8dcec34d6836": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "e27f3c7b-c8ca-4b20-bcd9-5b9159e9ef50": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "9c7a786a-fe07-4f93-a0f3-2dca1d042643": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "3ad2305b-5de8-4f16-ad83-ec81e6257a11": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "1730a743-e3d0-4356-b534-d7f5e412e8a3": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "d2a5306f-fa00-4558-8ca5-a7d3aca840b5": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "4b215a43-b114-4129-82a9-4eac817c25b4": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "3bed5f4c-67a6-4c11-8e54-3af665412084": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "1b991d9f-b372-4f13-8557-600599c68981": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "a2df9fb8-dc47-4c09-9826-4b7567878e5e": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "0c716148-5d37-45eb-813a-91b9a5f45968": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "50a7efca-1df5-40e8-a5b3-2b6a2a55d0d9": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "e4e88337-c424-41e2-8175-629a42cacfeb": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "42ecfb1a-c107-48fb-9e39-7fc03526c32c": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "a1b27b61-a561-492a-a7e6-d0f22b311c0d": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "ef4eeaed-21cf-4660-84c6-58a530deffa4": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "1e39377d-92d2-4ca7-ae3c-e9f9a655f8dc": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "2f95c84a-da4c-4404-aa29-4719ad43bdd2": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "77ffb043-0ff8-4f3e-aab5-1f95ebe77d0a": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "e8814da3-dda1-42b7-bbc6-8a236240b4d3": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "2c816a74-054d-4e59-a3b3-13ed79030a06": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "948102df-4791-443c-9d4f-5205a47b87b3": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "0c0dbee0-55eb-4379-8821-2e028e7c5229": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "8c3b7223-d297-4e19-be74-a9738dcda655": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "63809a8d-fc72-4d7e-a730-7b31065ccaf9": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "219282eb-ce58-4fb5-8981-af12168ec5f0": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "e038d0b7-c30b-4a5d-972f-d4ec1910c517": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "b143d679-0276-4275-adb1-0ede4d9fdd66": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "236f8564-53d0-4292-88d1-4690aab2be76": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "d45eb64d-cfe0-4e1a-a992-ee4f384aa647": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "57e1b453-a385-4155-b7f5-12da2625c13d": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "353e00f8-dc1b-48c0-a370-19d0fba92dcf": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "8b548ae2-fdd0-40b7-918b-3a84209affe6": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "2caf9c2b-9a84-4d31-aa3f-6b85d557d878": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "626faf58-6441-415d-ac78-5fcf2ab196ce": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "c995f4a7-b61b-4cea-8567-bfad20a5692b": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "f5a76d6e-4c01-4c82-8d59-a7abffb07a17": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "77dc946e-0c97-44f2-beba-0818708ea574": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "dbc2e1e9-551c-4036-acb6-f1d0ba2cd02a": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "e916c32a-4cd0-4d35-82f5-23e5d40c1a20": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "66fb7747-2ca7-4c0c-9b54-a5d4006feade": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "1f25d862-a460-4924-b600-fa4dbe17b79c": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "7607334b-175a-44c2-9522-d1b445b826f6": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "22100f10-a4cc-4490-8536-a83520e79221": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "1d966c23-887f-4914-8488-3eb45b1dd82d": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "34c64fc0-e354-44dc-a807-a2332ddcad14": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "65b0db53-a485-48bb-87e2-5d9886686629": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "462df515-5b1f-45f4-acbd-3d7aa708fd43": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "dfae5600-a7a5-4a55-a69e-294f8d74ff46": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "97e4dc18-3754-451e-90b5-365c80cdbe25": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "c51c9088-8484-4c1e-bce7-b52aeb6380ff": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "527e5610-f8a9-4419-bd89-62f6376d2aeb": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "cbf8e70e-5421-4e94-8a43-3f622255ba61": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "57bbcac9-7777-429c-b7d9-bccbb4e80cdc": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "3e7dc214-c376-4e2b-9acc-12c2f2e779e1": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "cb5e6e5a-482b-499b-9b5c-dcbfb7c8fed0": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "2f877859-2889-4ae7-9d66-8db771404830": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "5c1c0ab5-479e-41a4-85f0-b530e430215d": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "a3b4abf6-2208-4b51-9d2f-caca320091fb": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "91baaf0e-3de8-4652-a23b-08f9765297ac": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "9d7bd80d-91d2-4248-992e-7a3355a2abcc": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "80e4f1af-f62a-451d-bae6-4aa4d25662b7": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "61418187-f684-4b56-b49e-bdb5137efe86": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "6f506346-3a7f-4a22-aa79-6953c7574430": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "b8208a59-fbd3-4e25-89c0-0dbac51fc51f": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "f0dd1e4b-0b39-427a-bf97-9adccdf84d3d": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "2954892f-b8f7-42ab-83b2-c31434955dab": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "aa8b5e26-bc84-468f-bc2a-ac3ee858e869": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "08fa8bd8-f82a-4011-830f-94e6d69c1d16": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "dbd23566-fbf7-4c05-9f51-6910b0c51308": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "f0d05da0-0884-4e89-bc64-d45825d5dbc2": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "4e524661-f2e1-4878-a0b2-884df9ae5d94": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "41145f78-990b-4678-b78a-a41ed4a5efb8": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "ab52c2f6-169c-4071-a814-89432a8d7cdb": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "8d91d30a-709c-40ee-ac31-e636a399f605": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "5513187e-d5a2-443d-b793-10372fa6f20a": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "74753d2c-246d-4a2c-ac60-4988d6bf7e91": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "87ccb04c-f54a-4e23-a732-a741dbe2e116": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "71614065-3386-474a-bd15-fb63e0571401": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "32acb4c3-39c0-4fd3-8bc8-889deb9be6eb": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "e8f2844e-6abd-46f0-b858-7e74bd387179": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "33417a7c-cbbe-4877-bc42-c63d67d3e4f1": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "a61d3059-1cca-4333-a344-60ee8864319c": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "8824c615-d91e-46ca-814f-0f69cdd337fd": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "8295a5a1-4fc9-4fc9-b0cf-3c13a2bde12d": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "b4e7a4ad-e237-45be-8c0d-4a066ccdeb61": {
+       "road_type": "highway",
+       "lighting_condition": "day"
+     },
+     "ff936497-f57c-4b22-a1bf-f5ef8a5453ae": {
+       "road_type": "city",
+       "lighting_condition": "day"
+     },
+     "3766dda8-ceb0-4f19-a26f-7259a3a5a380": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "ed42df83-b36c-4d74-b5cc-2f4f9b939687": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "8720e50d-32bd-4380-8bd4-69db966ab341": {
+       "road_type": "city",
+       "lighting_condition": "night"
+     },
+     "d6a1acd6-ba89-476e-bb02-efef9d3aac99": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "0fa28f3f-bc23-45b0-bccf-4f0b9f267518": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "080f431f-520d-4987-aa68-99a04e1e782a": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "a90816fa-2441-492c-a1cb-d792d95153c4": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "d8c3790f-c20e-4c62-b71c-c525d182b46c": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "de1c537c-d1a3-4466-ae08-3b76325f64d2": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "b7c4425c-f9fb-409f-8378-86b92e6d1dcc": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "28b2a754-3d37-45d4-8cc9-58a0ccfa6bfb": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "9c597e8e-f8a5-4343-acbf-126954cb4d28": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "ed3d7c53-62df-409d-b59b-ef5737795cb2": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "c1fd6346-c96c-4cbf-9e55-61073be45932": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "2ce526e1-1868-4006-9a27-8724fb73376b": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     },
+     "d5b70f52-ef7c-4ae9-aeb9-5f38edff44dc": {
+       "road_type": "highway",
+       "lighting_condition": "night"
+     }
+   }
+ }
+ 

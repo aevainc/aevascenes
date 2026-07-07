@@ -16,6 +16,6 @@ dependencies:
   - opencv
   - pip
   - pip:
-      - rerun-sdk==0.24.1
+      - rerun-sdk==0.33.0
       - transformations
       - -e .

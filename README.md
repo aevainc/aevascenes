@@ -65,19 +65,21 @@ A small subset of the highway/city/day/night sequences are available to see usin
 
 
 ## Download Dataset
-1. Visit [scenes.aeva.com/downloads](https://scenes.aeva.com/downloads).
+1. Visit [scenes.aeva.com/download](https://scenes.aeva.com/download).
 2. Register and agree to the license terms.
 3. We will email you the signed_urls.txt file which contains the download links.
 4. Download the dataset using the provided download script and signed_urls.txt:
 
 ```bash
 # Download the dataset (after signing up and obtaining access)
-mkdir -p data/aevascenes_v0.1
-bash scripts/download_dataset.sh --url-file signed_urls.txt --output data/aevascenes_v0.1
+mkdir -p data/aevascenes_v2
+bash scripts/download_dataset.sh --url-file signed_urls_train.txt --output data/aevascenes_v2
+bash scripts/download_dataset.sh --url-file signed_urls_validation.txt --output data/aevascenes_v2
+bash scripts/download_dataset.sh --url-file signed_urls_test.txt --output data/aevascenes_v2
 
 # Extract the dataset
-cd data/aevascenes_v0.1
-for f in *.tar.gz; do tar -xvf "$f"; done
+cd data/aevascenes_v2/   # split = train | validation | test
+for split in train validation test; do [ -d "$split" ] && for f in "$split"/*.tar.gz; do tar -xzf "$f" -C "$split"; done; done
 ```
 
 ## Getting Started
@@ -87,15 +89,24 @@ Please see [Dataset.md](./docs/Dataset.md) for details about the dataset and sch
 Please see [Getting Started.md](./docs/Getting_Started.md) to get started with using the Python SDK. Here's a quick overview.
 
 ```bash
-# Visualize a single sequence
-python examples/visualize_aevascenes.py --dataroot <DATA_ROOT> --viz-mode sequence --sequence-uuid <UUID> --color-mode [velocity/reflectivity/semantic]
+# List available sequences
+python examples/visualize_aevascenes.py --dataroot data/aevascenes_v2 --list-sequences
 
-# Visualize a single sequence with points projected
-python examples/visualize_aevascenes.py --dataroot <DATA_ROOT> --viz-mode sequence --sequence-uuid <UUID> --color-mode [velocity/reflectivity/semantic] --project-points
+# Visualize both raw and compensated point clouds
+python examples/visualize_aevascenes.py --dataroot data/aevascenes_v2 --sequence-uuid <UUID> --pcd-type raw_and_compensated
 
-# Visualize random sampled frames from all sequences
-python examples/visualize_aevascenes.py --dataroot <DATA_ROOT> --viz-mode sampled --color-mode [velocity/reflectivity/semantic] --project-points
+# Visualize a single sequence (defaults: compensated clouds, vehicle frame, velocity coloring)
+python examples/visualize_aevascenes.py --dataroot data/aevascenes_v2 --sequence-uuid <UUID>
+
+# Project LiDAR points onto camera images
+python examples/visualize_aevascenes.py --dataroot data/aevascenes_v2 --sequence-uuid <UUID> --color-mode semantic --project-points
+
+# Raw point clouds in world frame, LiDAR-only
+python examples/visualize_aevascenes.py --dataroot data/aevascenes_v2 --sequence-uuid <UUID> --pcd-type raw --coordinate-frame world --no-images
 ```
+
+Options: `--color-mode` (`velocity` | `reflectivity` | `semantic`), `--pcd-type` (`compensated` | `raw` | `raw_and_compensated`), `--coordinate-frame` (`vehicle` | `world`), `--project-points`, `--no-images`, `--image-downsample-factor` (`1` | `2` | `4` | `8`), `--no-keep-alive`, `--list-sequences`.
+
 
 
 ## License

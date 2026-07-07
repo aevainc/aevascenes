@@ -287,10 +287,8 @@ def convert_boxes_to_rr(boxes: List[Dict[str, Any]], color_map: Optional[Dict[st
     boxes_rr["rotations"] = [Quaternion(xyzw=box["rot_xyzw"]) for box in boxes]
 
     if color_map is not None:
-        boxes_rr["box_labels"] = [box["class"] for box in boxes]
         boxes_rr["box_colors"] = [color_map[box["class"]] for box in boxes]
     else:
-        boxes_rr["box_labels"] = None
         boxes_rr["box_colors"] = [[65, 200, 225]] * len(boxes)
 
     boxes_rr = rr.Boxes3D(
@@ -299,7 +297,6 @@ def convert_boxes_to_rr(boxes: List[Dict[str, Any]], color_map: Optional[Dict[st
         rotations=boxes_rr["rotations"],
         radii=0.05,
         colors=boxes_rr["box_colors"],
-        labels=boxes_rr["box_labels"],
     )
     return boxes_rr
 
@@ -323,8 +320,12 @@ def convert_box_velocity_arrows_rr(
                   If None, uses default cyan color for all arrows.
 
     Returns:
-        Rerun Arrows3D object configured for velocity visualization with:
+        Rerun Arrows3D object configured for velocity visualization, or None if no boxes have velocity.
     """
+    boxes = [box for box in boxes if "linear_velocity" in box]
+    if not boxes:
+        return None
+
     import rerun as rr
 
     arrows_rr = {}
@@ -336,7 +337,7 @@ def convert_box_velocity_arrows_rr(
     if color_map is not None:
         arrows_rr["colors"] = [color_map[box["class"]] for box in boxes]
     else:
-        arrows_rr["colors"] = [[65, 200, 225]] * 10
+        arrows_rr["colors"] = [[65, 200, 225]] * len(boxes)
 
     arrows_rr = rr.Arrows3D(
         origins=arrows_rr["centers"], vectors=arrows_rr["vectors"], colors=arrows_rr["colors"], radii=0.1

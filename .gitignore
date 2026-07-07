@@ -13,4 +13,3 @@ data/
 *.jpg
 *.pcd
 *.npz
-*.json

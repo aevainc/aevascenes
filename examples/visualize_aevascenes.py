@@ -28,14 +28,6 @@ def parse_arguments():
         help="Path to the AevaScenes dataset directory (for e.g. data/aevascenes_v0.1)",
     )
 
-    # Visualization mode
-    parser.add_argument(
-        "--viz-mode",
-        choices=["sequence", "sampled"],
-        default="sequence",
-        help="Visualization mode: 'sequence' for single sequence, 'sampled' for random frames",
-    )
-
     # Point cloud coloring
     parser.add_argument(
         "--color-mode",
@@ -45,19 +37,36 @@ def parse_arguments():
         help="Point cloud coloring mode",
     )
 
-    # Sequence selection (for sequence mode)
+    # Point cloud variant
+    parser.add_argument(
+        "--pcd-type",
+        choices=["compensated", "raw", "raw_and_compensated"],
+        default="raw_and_compensated",
+        help="Point cloud variant to visualize: compensated, raw, or raw_and_compensated",
+    )
+
+    # Sequence selection
     parser.add_argument(
         "--sequence-uuid",
         "-s",
         type=str,
         default="ab87b214-a867-4e43-8d74-a2123966ed3d",
-        help="UUID of the sequence to visualize (only used in sequence mode)",
+        help="UUID of the sequence to visualize",
     )
 
     # Image projection options
     parser.add_argument("--project-points", action="store_true", help="Project point cloud points onto images")
 
     parser.set_defaults(project_points=False)
+
+    parser.add_argument("--no-images", action="store_true", help="Skip camera image loading and display")
+
+    parser.add_argument(
+        "--coordinate-frame",
+        choices=["vehicle", "world"],
+        default="vehicle",
+        help="Coordinate frame for visualization: vehicle (ego) or world (using ego_pose)",
+    )
 
     # Image downsampling
     parser.add_argument(
@@ -70,6 +79,12 @@ def parse_arguments():
 
     # Utility commands
     parser.add_argument("--list-sequences", action="store_true", help="List all available sequences in the dataset")
+
+    parser.add_argument(
+        "--no-keep-alive",
+        action="store_true",
+        help="Exit immediately after streaming instead of keeping the rerun server open",
+    )
 
     return parser.parse_args()
 
@@ -106,46 +121,41 @@ def main():
     # Handle list sequences command
     if args.list_sequences:
         print("Available sequences:")
-        sequences = avs.list_sequences()
+        avs.list_sequences()
         sys.exit(0)
 
-    # Determine sequence UUID
     sequence_uuid = args.sequence_uuid
 
     # Display configuration
     print("\nVisualization Configuration:")
-    print(f"  Mode: {args.viz_mode}")
     print(f"  Color mode: {args.color_mode}")
+    print(f"  Point cloud type: {args.pcd_type}")
     print(f"  Project points on image: {args.project_points}")
+    print(f"  Include images: {not args.no_images}")
+    print(f"  Coordinate frame: {args.coordinate_frame}")
     print(f"  Image downsample factor: {args.image_downsample_factor}")
-    if args.viz_mode == "sequence":
-        print(f"  Sequence UUID: {sequence_uuid}")
+    print(f"  Sequence UUID: {sequence_uuid}")
     print()
 
     # Run visualization
     try:
-        if args.viz_mode == "sequence":
-            if not avs.is_sequence_uuid_valid(sequence_uuid):
-                print(f"Error: Invalid sequence UUID '{sequence_uuid}'")
-                print("Use --list-sequences to see available sequences.")
-                sys.exit(1)
+        sequence_error = avs.explain_invalid_sequence_uuid(sequence_uuid)
+        if sequence_error:
+            print(f"Error: {sequence_error}")
+            sys.exit(1)
 
-            print(f"Visualizing sequence: {sequence_uuid}")
-            avs.visualize_sequence(
-                sequence_uuid=sequence_uuid,
-                pcd_color_mode=args.color_mode,
-                project_points_on_image=args.project_points,
-                image_downsample_factor=args.image_downsample_factor,
-            )
-        elif args.viz_mode == "sampled":
-            print("Visualizing sampled frames from dataset")
-            avs.visualize_sampled_frames_from_dataset(
-                pcd_color_mode=args.color_mode,
-                project_points_on_image=args.project_points,
-                image_downsample_factor=args.image_downsample_factor,
-            )
-        else:
-            print(f"Currently supported --viz_mode are [sequence/sampled]")
+        print(f"Visualizing sequence: {sequence_uuid}")
+        avs.visualize_sequence(
+            sequence_uuid=sequence_uuid,
+            pcd_color_mode=args.color_mode,
+            pcd_type=args.pcd_type,
+            project_points_on_image=args.project_points,
+            image_downsample_factor=args.image_downsample_factor,
+            include_images=not args.no_images,
+            coordinate_frame=args.coordinate_frame,
+            init_visualizer=True,
+            keep_alive=not args.no_keep_alive,
+        )
     except Exception as e:
         print(f"Error during visualization: {e}")
         sys.exit(1)
